@@ -1,0 +1,67 @@
+#This is not complete
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix Owl:<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+<#DataTripleMap>
+a rr:TriplesMap ;
+rr:logicalTable [
+	rr:tableName "ICT-AREA"
+];
+rr:subjectMap [
+	rr:template "http://foo.example.com/ict/{ISO}" ;
+	rr:class dbpedia:isoCodeRegion ;
+] ;
+# rr:predicateObjectMap [
+# 		rr:predicate dbpedia:region ;
+# 		rr:objectMap [ rr:column "UNICEF REGION" ];
+# 	] ;
+rr:predicateObjectMap [
+		rr:predicate dbpedia:sex ;
+		rr:objectMap [ rr:column "SEX"];
+	] ;
+rr:predicateObjectMap [
+		rr:predicate dbpedia:country ;
+		rr:objectMap [ rr:column "COUNTRY"];
+	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "COPIED OR MOVED A FILE OR FOLDER"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "USED A COPY AND PASTE TOOL TO DUPLICATE OR MOVE INFORMATION WITHIN A DOCUMENT"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "SENT E-MAIL WITH ATTACHED FILE, SUCH AS A DOCUMENT, PICTURE OR VIDEO"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "USED A BASIC ARITHMETIC FORMULA IN A SPREADSHEET"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "CONNECTED AND INSTALLED A NEW DEVICE, SUCH AS A MODEM, CAMERA OR PRINTER"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "CONNECTED AND INSTALLED A NEW DEVICE, SUCH AS A MODEM, CAMERA OR PRINTER"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "CREATED AN ELECTRONIC PRESENTATION WITH PRESENTATION SOFTWARE, INCLUDING TEXT, IMAGES, SOUND, VIDEO OR CHARTS"];
+# 	] ;
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "TRANSFERRED A FILE BETWEEN A COMPUTER AND OTHER DEVICE"];
+# 	] ;		
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "WROTE A COMPUTER PROGRAM IN ANY PROGRAMMING LANGUAGE"];
+# 	] ;	
+# rr:predicateObjectMap [
+# 		rr:predicate  Owl:Task;
+# 		rr:objectMap [ rr:column "PERFORMED AT LEAST ONE OUT OF NINE ACTIVITES"];
+# 	] ;								
+	.

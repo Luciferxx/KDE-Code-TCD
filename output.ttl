@@ -1,0 +1,647 @@
+<http://foo.example.com/outofschool/CMR>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                22 , 16 ;
+        <http://dbpedia.org/ontology/residence>
+                10 , 28 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                5 , 40 , 16 , 10 , 27 .
+
+<http://foo.example.com/outofschool/GUY>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                5 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 4 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 2 , 9 , 5 , 6 .
+
+<http://foo.example.com/outofschool/GEO>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                2 , 1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                0 , 1 , 2 .
+
+<http://foo.example.com/outofschool/COG>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 6 ;
+        <http://dbpedia.org/ontology/residence>
+                10 , 5 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                8 , 2 , 14 , 10 .
+
+<http://foo.example.com/outofschool/KEN>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                3 ;
+        <http://dbpedia.org/ontology/residence>
+                4 , 2 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 10 , 1 .
+
+<http://foo.example.com/outofschool/JAM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 , 0 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 2 , 0 .
+
+<http://foo.example.com/outofschool/DZA>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                4 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 6 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "MENA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                4 , 1 , 2 , 3 , 9 .
+
+<http://foo.example.com/outofschool/BLZ>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                10 , 9 ;
+        <http://dbpedia.org/ontology/residence>
+                12 , 4 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                13 , 2 , 15 , 9 , 4 .
+
+<http://foo.example.com/outofschool/GAB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                3 , 4 ;
+        <http://dbpedia.org/ontology/residence>
+                5 , 3 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 4 , 1 , 7 .
+
+<http://foo.example.com/outofschool/CIV>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                27 , 38 ;
+        <http://dbpedia.org/ontology/residence>
+                26 , 40 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                22 , 50 , 25 , 37 , 33 .
+
+<http://foo.example.com/outofschool/GHA>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 6 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 8 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                4 , 3 , 6 , 15 .
+
+<http://foo.example.com/outofschool/COL>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                4 , 3 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 3 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                3 , 8 , 1 .
+
+<http://foo.example.com/outofschool/SLV>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                15 , 14 ;
+        <http://dbpedia.org/ontology/residence>
+                11 , 20 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                28 , 6 , 7 , 10 , 17 .
+
+<http://foo.example.com/outofschool/AFG>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                25 , 56 ;
+        <http://dbpedia.org/ontology/residence>
+                46 , 23 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                48 , 49 , 50 , 33 , 21 .
+
+<http://foo.example.com/outofschool/CUB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                2 , 3 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 2 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 0 , 5 .
+
+<http://foo.example.com/outofschool/BFA>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                56 , 59 ;
+        <http://dbpedia.org/ontology/residence>
+                31 , 65 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                49 , 77 , 67 , 62 , 32 .
+
+<http://foo.example.com/outofschool/BGD>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 18 ;
+        <http://dbpedia.org/ontology/residence>
+                12 , 13 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                19 , 15 , 7 , 11 .
+
+<http://foo.example.com/outofschool/GNB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                20 , 26 ;
+        <http://dbpedia.org/ontology/residence>
+                27 , 18 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                27 , 28 , 26 , 16 , 20 .
+
+<http://foo.example.com/outofschool/HTI>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                5 , 7 ;
+        <http://dbpedia.org/ontology/residence>
+                8 , 3 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                14 , 3 , 7 .
+
+<http://foo.example.com/outofschool/AGO>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                17 , 14 ;
+        <http://dbpedia.org/ontology/residence>
+                28 , 10 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                31 , 6 , 26 , 16 , 4 .
+
+<http://foo.example.com/outofschool/CRI>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                3 , 2 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 2 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                0 , 4 , 3 , 2 .
+
+<http://foo.example.com/outofschool/ALB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                2 ;
+        <http://dbpedia.org/ontology/residence>
+                2 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 4 , 1 .
+
+<http://foo.example.com/outofschool/BEN>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                47 , 36 ;
+        <http://dbpedia.org/ontology/residence>
+                31 , 48 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                42 , 65 , 18 , 52 , 31 .
+
+<http://foo.example.com/outofschool/GIN>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                54 , 38 ;
+        <http://dbpedia.org/ontology/residence>
+                26 , 62 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                20 , 57 , 39 , 72 , 59 .
+
+<http://foo.example.com/outofschool/TCD>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                58 , 47 ;
+        <http://dbpedia.org/ontology/residence>
+                33 , 57 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                27 , 57 , 70 , 77 , 36 .
+
+<http://foo.example.com/outofschool/EGY>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                10 ;
+        <http://dbpedia.org/ontology/residence>
+                11 , 8 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "MENA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 13 , 15 , 9 .
+
+<http://foo.example.com/outofschool/BLR>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                0 ;
+        <http://dbpedia.org/ontology/residence>
+                0 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                0 , 1 .
+
+<http://foo.example.com/outofschool/SWZ>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                5 , 4 ;
+        <http://dbpedia.org/ontology/residence>
+                4 , 5 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                3 , 4 , 6 , 7 .
+
+<http://foo.example.com/outofschool/ETH>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                30 , 31 ;
+        <http://dbpedia.org/ontology/residence>
+                22 , 33 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                24 , 40 , 20 , 48 , 28 .
+
+<http://foo.example.com/outofschool/KIR>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                15 , 5 ;
+        <http://dbpedia.org/ontology/residence>
+                11 , 9 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EAP" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                16 , 11 , 3 , 9 .
+
+<http://foo.example.com/outofschool/CAF>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                30 , 18 ;
+        <http://dbpedia.org/ontology/residence>
+                33 , 11 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                9 , 35 , 40 , 28 , 16 .
+
+<http://foo.example.com/outofschool/COD>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                18 , 16 ;
+        <http://dbpedia.org/ontology/residence>
+                12 , 21 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                16 , 28 , 8 , 17 .
+
+<http://foo.example.com/outofschool/IDN>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                4 , 7 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 4 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EAP" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 7 , 11 , 2 , 5 .
+
+<http://foo.example.com/outofschool/GTM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                24 , 34 ;
+        <http://dbpedia.org/ontology/residence>
+                36 , 18 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                46 , 5 , 41 , 30 , 14 .
+
+<http://foo.example.com/outofschool/BTN>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                20 , 18 ;
+        <http://dbpedia.org/ontology/residence>
+                10 , 23 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                10 , 35 , 25 , 18 , 11 .
+
+<http://foo.example.com/outofschool/BRB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 0 , 2 .
+
+<http://foo.example.com/outofschool/BIH>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 4 , 0 .
+
+<http://foo.example.com/outofschool/GMB>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                35 , 30 ;
+        <http://dbpedia.org/ontology/residence>
+                45 , 23 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                43 , 12 , 44 , 42 , 24 .
+
+<http://foo.example.com/outofschool/ARM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                0 , 1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 1 , 0 .
+
+<http://foo.example.com/outofschool/BDI>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                28 , 31 ;
+        <http://dbpedia.org/ontology/residence>
+                20 , 31 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                20 , 35 , 22 , 26 , 49 .
+
+<http://foo.example.com/outofschool/IRQ>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                28 , 15 ;
+        <http://dbpedia.org/ontology/residence>
+                17 , 30 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "MENA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                11 , 13 , 19 , 24 , 36 .
+
+<http://foo.example.com/outofschool/KAZ>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                0 ;
+        <http://dbpedia.org/ontology/residence>
+                0 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                0 .
+
+<http://foo.example.com/outofschool/ARG>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 1 , 0 .
+
+<http://foo.example.com/outofschool/BRA>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 0 .
+
+<http://foo.example.com/outofschool/IND>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 7 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 8 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                15 , 5 , 1 , 7 , 3 .
+
+<http://foo.example.com/outofschool/HND>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                32 , 26 ;
+        <http://dbpedia.org/ontology/residence>
+                40 , 15 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                24 , 5 , 56 , 15 , 35 .
+
+<http://foo.example.com/outofschool/JOR>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                5 , 6 ;
+        <http://dbpedia.org/ontology/residence>
+                5 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "MENA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 6 , 13 , 3 .
+
+<http://foo.example.com/outofschool/KHM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                26 , 25 ;
+        <http://dbpedia.org/ontology/residence>
+                26 , 20 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "EAP" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                29 , 24 , 40 , 15 , 17 .
+
+<http://foo.example.com/outofschool/DOM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                4 , 2 ;
+        <http://dbpedia.org/ontology/residence>
+                3 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                6 , 5 , 2 , 1 .
+
+<http://foo.example.com/outofschool/COM>
+        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+        <http://dbpedia.org/ontology/gender>
+                15 , 14 ;
+        <http://dbpedia.org/ontology/residence>
+                11 , 16 ;
+        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                8 , 13 , 16 , 9 , 27 .

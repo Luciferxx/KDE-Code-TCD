@@ -1,0 +1,72 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix swpo: <http://sw-portal.deri.org/ontologies/swportal#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<#Lower_SecondaryTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "Lower_Secondary" ] ;
+         rr:subjectMap [
+               rr:template "http://foo.example.com/outofschool/{ISO}" ;
+               rr:class dbpedia:isoCodeRegion ;
+         ] ;
+      #    rr:predicateObjectMap [
+      #          rr:predicate dbpedia:isoCodeRegion  ;
+      #          rr:objectMap [ rr:column "REGION" ] ;
+      #    ] ;
+         rr:predicateObjectMap [
+               rr:predicate swpo:SubRegion ;
+               rr:objectMap [ rr:column "SUBREGION" ] ;
+         ] ;
+         rr:predicateObjectMap [
+               rr:predicate foaf:DevelopmentRegions;
+               rr:objectMap [ rr:column "DEVELOPMENTREGIONS" ] ;
+         ] ;         
+         rr:predicateObjectMap [
+               rr:predicate dbpedia:gender;
+               rr:objectMap [ rr:column "FEMALE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+               rr:predicate dbpedia:gender;
+               rr:objectMap [ rr:column "MALE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+               rr:predicate dbpedia:residence;
+               rr:objectMap [ rr:column "RURAL";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+               rr:predicate dbpedia:residence;
+               rr:objectMap [ rr:column "URBAN";
+               rr:datatype xsd:integer; ] ;
+         ] ;          
+         
+         rr:predicateObjectMap [
+               rr:predicate foaf:wealthQuintile ;
+               rr:objectMap [ rr:column "POOREST";
+               rr:datatype xsd:integer;
+                ] ;
+         ] ;
+                 rr:predicateObjectMap [
+               rr:predicate foaf:wealthQuintile ;
+               rr:objectMap [ rr:column "SECOND";
+               rr:datatype xsd:integer; ] ;
+         ] ;         rr:predicateObjectMap [
+               rr:predicate foaf:wealthQuintile ;
+               rr:objectMap [ rr:column "MIDDLE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+                 rr:predicateObjectMap [
+               rr:predicate foaf:wealthQuintile ;
+               rr:objectMap [ rr:column "FOURTH";
+               rr:datatype xsd:integer; ] ;
+         ] ;
+                 rr:predicateObjectMap [
+               rr:predicate foaf:wealthQuintile ;
+               rr:objectMap [ rr:column "RICHEST";
+               rr:datatype xsd:integer; ] ;
+         ] ;
+.
