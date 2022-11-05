@@ -1,3 +1,6 @@
+#First structure in classes and properties
+#Second to add ontologies
+#Third is to join tables together
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dbpedia: <http://dbpedia.org/ontology/> .
