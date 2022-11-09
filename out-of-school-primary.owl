@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#"
+     xml:base="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#has">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#GENDER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#GENDER">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#RESIDENCE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#RESIDENCE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SCHOOLING_LEVEL_OF_COUNTRY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#WEALTH_QUINTILE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#WEALTH_QUINTILE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#GENDER"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#RESIDENCE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#WEALTH_QUINTILE"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#PRIMARY"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SECONDARY"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#UPPER_SECONDARY"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

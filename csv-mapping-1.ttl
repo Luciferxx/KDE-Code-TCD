@@ -6,21 +6,25 @@
 @prefix dbpedia: <http://dbpedia.org/ontology/> .
 @prefix swpo: <http://sw-portal.deri.org/ontologies/swportal#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ourontology: <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#> .
 <#Lower_SecondaryTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "Lower_Secondary" ] ;
          rr:subjectMap [
-               rr:template "http://foo.example.com/outofschool/{ISO}" ;
-               rr:class dbpedia:isoCodeRegion ;
+               rr:template "http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/{ISO}" ;
+               rr:class ourontology:ISO ;
          ] ;
       #    rr:predicateObjectMap [
       #          rr:predicate dbpedia:isoCodeRegion  ;
       #          rr:objectMap [ rr:column "REGION" ] ;
       #    ] ;
          rr:predicateObjectMap [
-               rr:predicate swpo:SubRegion ;
+               rr:predicate ourontology:SUBREGION ;
                rr:objectMap [ rr:column "SUBREGION" ] ;
+         ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:COUNTRY ;
+               rr:objectMap [ rr:column "COUNTRY" ] ;
          ] ;
          rr:predicateObjectMap [
                rr:predicate foaf:DevelopmentRegions;

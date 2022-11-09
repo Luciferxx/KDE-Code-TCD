@@ -1,647 +1,747 @@
-<http://foo.example.com/outofschool/CMR>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                22 , 16 ;
-        <http://dbpedia.org/ontology/residence>
-                10 , 28 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                5 , 40 , 16 , 10 , 27 .
-
-<http://foo.example.com/outofschool/GUY>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                5 ;
-        <http://dbpedia.org/ontology/residence>
-                6 , 4 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 2 , 9 , 5 , 6 .
-
-<http://foo.example.com/outofschool/GEO>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                2 , 1 ;
-        <http://dbpedia.org/ontology/residence>
-                1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "EECA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 1 , 2 .
-
-<http://foo.example.com/outofschool/COG>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                8 , 6 ;
-        <http://dbpedia.org/ontology/residence>
-                10 , 5 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                8 , 2 , 14 , 10 .
-
-<http://foo.example.com/outofschool/KEN>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                3 ;
-        <http://dbpedia.org/ontology/residence>
-                4 , 2 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "ESA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 10 , 1 .
-
-<http://foo.example.com/outofschool/JAM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                1 ;
-        <http://dbpedia.org/ontology/residence>
-                1 , 0 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 2 , 0 .
-
-<http://foo.example.com/outofschool/DZA>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                4 ;
-        <http://dbpedia.org/ontology/residence>
-                3 , 6 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "MENA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                4 , 1 , 2 , 3 , 9 .
-
-<http://foo.example.com/outofschool/BLZ>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                10 , 9 ;
-        <http://dbpedia.org/ontology/residence>
-                12 , 4 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                13 , 2 , 15 , 9 , 4 .
-
-<http://foo.example.com/outofschool/GAB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                3 , 4 ;
-        <http://dbpedia.org/ontology/residence>
-                5 , 3 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 4 , 1 , 7 .
-
-<http://foo.example.com/outofschool/CIV>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                27 , 38 ;
-        <http://dbpedia.org/ontology/residence>
-                26 , 40 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                22 , 50 , 25 , 37 , 33 .
-
-<http://foo.example.com/outofschool/GHA>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                8 , 6 ;
-        <http://dbpedia.org/ontology/residence>
-                6 , 8 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                4 , 3 , 6 , 15 .
-
-<http://foo.example.com/outofschool/COL>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                4 , 3 ;
-        <http://dbpedia.org/ontology/residence>
-                6 , 3 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                3 , 8 , 1 .
-
-<http://foo.example.com/outofschool/SLV>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                15 , 14 ;
-        <http://dbpedia.org/ontology/residence>
-                11 , 20 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                28 , 6 , 7 , 10 , 17 .
-
-<http://foo.example.com/outofschool/AFG>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                25 , 56 ;
-        <http://dbpedia.org/ontology/residence>
-                46 , 23 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "SA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                48 , 49 , 50 , 33 , 21 .
-
-<http://foo.example.com/outofschool/CUB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                2 , 3 ;
-        <http://dbpedia.org/ontology/residence>
-                3 , 2 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 0 , 5 .
-
-<http://foo.example.com/outofschool/BFA>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                56 , 59 ;
-        <http://dbpedia.org/ontology/residence>
-                31 , 65 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                49 , 77 , 67 , 62 , 32 .
-
-<http://foo.example.com/outofschool/BGD>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                8 , 18 ;
-        <http://dbpedia.org/ontology/residence>
-                12 , 13 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "SA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                19 , 15 , 7 , 11 .
-
-<http://foo.example.com/outofschool/GNB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                20 , 26 ;
-        <http://dbpedia.org/ontology/residence>
-                27 , 18 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "WCA" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                27 , 28 , 26 , 16 , 20 .
-
-<http://foo.example.com/outofschool/HTI>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
-        <http://dbpedia.org/ontology/gender>
-                5 , 7 ;
-        <http://dbpedia.org/ontology/residence>
-                8 , 3 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
-                "LAC" ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" ;
-        <http://xmlns.com/foaf/0.1/wealthQuintile>
-                14 , 3 , 7 .
-
-<http://foo.example.com/outofschool/AGO>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/AGO>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 17 , 14 ;
         <http://dbpedia.org/ontology/residence>
-                28 , 10 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                10 , 28 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Angola" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                31 , 6 , 26 , 16 , 4 .
+                16 , 4 , 31 , 6 , 26 .
 
-<http://foo.example.com/outofschool/CRI>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/CRI>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                3 , 2 ;
+                2 , 3 ;
         <http://dbpedia.org/ontology/residence>
-                3 , 2 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                2 , 3 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Costa Rica" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 4 , 3 , 2 .
+                2 , 3 , 0 , 4 .
 
-<http://foo.example.com/outofschool/ALB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/ALB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 2 ;
         <http://dbpedia.org/ontology/residence>
                 2 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Albania" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "More Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 4 , 1 .
+                1 , 4 , 2 .
 
-<http://foo.example.com/outofschool/BEN>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BEN>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                47 , 36 ;
+                36 , 47 ;
         <http://dbpedia.org/ontology/residence>
-                31 , 48 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                48 , 31 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Benin" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                42 , 65 , 18 , 52 , 31 .
+                18 , 52 , 42 , 65 , 31 .
 
-<http://foo.example.com/outofschool/GIN>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GIN>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                54 , 38 ;
+                38 , 54 ;
         <http://dbpedia.org/ontology/residence>
-                26 , 62 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                62 , 26 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Guinea" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                20 , 57 , 39 , 72 , 59 .
+                20 , 57 , 59 , 39 , 72 .
 
-<http://foo.example.com/outofschool/TCD>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/TCD>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                58 , 47 ;
+                47 , 58 ;
         <http://dbpedia.org/ontology/residence>
-                33 , 57 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                57 , 33 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Chad" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                27 , 57 , 70 , 77 , 36 .
+                57 , 36 , 27 , 77 , 70 .
 
-<http://foo.example.com/outofschool/EGY>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/EGY>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 10 ;
         <http://dbpedia.org/ontology/residence>
-                11 , 8 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                8 , 11 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Egypt" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 13 , 15 , 9 .
+                9 , 15 , 13 , 2 .
 
-<http://foo.example.com/outofschool/BLR>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BLR>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 0 ;
         <http://dbpedia.org/ontology/residence>
                 0 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Belarus" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "More Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 1 .
+                1 , 0 .
 
-<http://foo.example.com/outofschool/SWZ>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/SWZ>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 5 , 4 ;
         <http://dbpedia.org/ontology/residence>
-                4 , 5 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                5 , 4 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Eswatini" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                3 , 4 , 6 , 7 .
+                4 , 3 , 6 , 7 .
 
-<http://foo.example.com/outofschool/ETH>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/ETH>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                30 , 31 ;
+                31 , 30 ;
         <http://dbpedia.org/ontology/residence>
                 22 , 33 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Ethiopia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                24 , 40 , 20 , 48 , 28 .
+                28 , 48 , 20 , 40 , 24 .
 
-<http://foo.example.com/outofschool/KIR>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/KIR>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                15 , 5 ;
+                5 , 15 ;
         <http://dbpedia.org/ontology/residence>
-                11 , 9 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                9 , 11 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Kiribati" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                16 , 11 , 3 , 9 .
+                3 , 9 , 11 , 16 .
 
-<http://foo.example.com/outofschool/CAF>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/CAF>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 30 , 18 ;
         <http://dbpedia.org/ontology/residence>
                 33 , 11 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Central African Republic" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                9 , 35 , 40 , 28 , 16 .
+                35 , 40 , 9 , 16 , 28 .
 
-<http://foo.example.com/outofschool/COD>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/COD>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 18 , 16 ;
         <http://dbpedia.org/ontology/residence>
                 12 , 21 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Democratic Republic of the Congo" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                16 , 28 , 8 , 17 .
+                17 , 16 , 28 , 8 .
 
-<http://foo.example.com/outofschool/IDN>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/IDN>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                4 , 7 ;
+                7 , 4 ;
         <http://dbpedia.org/ontology/residence>
                 6 , 4 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Indonesia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 7 , 11 , 2 , 5 .
+                7 , 2 , 1 , 11 , 5 .
 
-<http://foo.example.com/outofschool/GTM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GTM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                24 , 34 ;
+                34 , 24 ;
         <http://dbpedia.org/ontology/residence>
                 36 , 18 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Guatemala" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                46 , 5 , 41 , 30 , 14 .
+                14 , 41 , 46 , 30 , 5 .
 
-<http://foo.example.com/outofschool/BTN>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BTN>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                20 , 18 ;
+                18 , 20 ;
         <http://dbpedia.org/ontology/residence>
-                10 , 23 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                23 , 10 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Bhutan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                10 , 35 , 25 , 18 , 11 .
+                18 , 35 , 25 , 11 , 10 .
 
-<http://foo.example.com/outofschool/BRB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BRB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 1 ;
         <http://dbpedia.org/ontology/residence>
                 1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Barbados" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 0 , 2 .
+                0 , 2 , 1 .
 
-<http://foo.example.com/outofschool/BIH>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BIH>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 1 ;
         <http://dbpedia.org/ontology/residence>
                 1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Bosnia and Herzegovina" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "More Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 4 , 0 .
+                4 , 1 , 0 .
 
-<http://foo.example.com/outofschool/GMB>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GMB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 35 , 30 ;
         <http://dbpedia.org/ontology/residence>
-                45 , 23 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                23 , 45 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Gambia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                43 , 12 , 44 , 42 , 24 .
+                43 , 24 , 42 , 44 , 12 .
 
-<http://foo.example.com/outofschool/ARM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/ARM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 1 ;
         <http://dbpedia.org/ontology/residence>
-                0 , 1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                1 , 0 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Armenia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
                 2 , 1 , 0 .
 
-<http://foo.example.com/outofschool/BDI>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BDI>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                28 , 31 ;
+                31 , 28 ;
         <http://dbpedia.org/ontology/residence>
                 20 , 31 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Burundi" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                20 , 35 , 22 , 26 , 49 .
+                49 , 35 , 26 , 22 , 20 .
 
-<http://foo.example.com/outofschool/IRQ>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/IRQ>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                28 , 15 ;
+                15 , 28 ;
         <http://dbpedia.org/ontology/residence>
-                17 , 30 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                30 , 17 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Iraq" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                11 , 13 , 19 , 24 , 36 .
+                24 , 13 , 11 , 19 , 36 .
 
-<http://foo.example.com/outofschool/KAZ>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/KAZ>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 0 ;
         <http://dbpedia.org/ontology/residence>
                 0 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Kazakhstan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
                 0 .
 
-<http://foo.example.com/outofschool/ARG>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/ARG>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Argentina" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 1 , 0 .
+                0 , 1 , 2 .
 
-<http://foo.example.com/outofschool/BRA>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BRA>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 1 ;
         <http://dbpedia.org/ontology/residence>
                 1 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Brazil" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 0 .
+                0 , 1 .
 
-<http://foo.example.com/outofschool/IND>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/IND>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                8 , 7 ;
+                7 , 8 ;
         <http://dbpedia.org/ontology/residence>
                 6 , 8 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "India" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                15 , 5 , 1 , 7 , 3 .
+                3 , 5 , 15 , 7 , 1 .
 
-<http://foo.example.com/outofschool/HND>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/HND>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
                 32 , 26 ;
         <http://dbpedia.org/ontology/residence>
                 40 , 15 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Honduras" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                24 , 5 , 56 , 15 , 35 .
+                56 , 5 , 24 , 35 , 15 .
 
-<http://foo.example.com/outofschool/JOR>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/JOR>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                5 , 6 ;
+                6 , 5 ;
         <http://dbpedia.org/ontology/residence>
                 5 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Jordan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                2 , 6 , 13 , 3 .
+                3 , 6 , 13 , 2 .
 
-<http://foo.example.com/outofschool/KHM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/KHM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                26 , 25 ;
+                25 , 26 ;
         <http://dbpedia.org/ontology/residence>
                 26 , 20 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Cambodia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                29 , 24 , 40 , 15 , 17 .
+                40 , 17 , 29 , 15 , 24 .
 
-<http://foo.example.com/outofschool/DOM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/DOM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                4 , 2 ;
+                2 , 4 ;
         <http://dbpedia.org/ontology/residence>
                 3 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Dominican Republic" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                6 , 5 , 2 , 1 .
+                6 , 1 , 2 , 5 .
 
-<http://foo.example.com/outofschool/COM>
-        a       <http://dbpedia.org/ontology/isoCodeRegion> ;
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/COM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
         <http://dbpedia.org/ontology/gender>
-                15 , 14 ;
+                14 , 15 ;
         <http://dbpedia.org/ontology/residence>
-                11 , 16 ;
-        <http://sw-portal.deri.org/ontologies/swportal#SubRegion>
+                16 , 11 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Comoros" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                8 , 13 , 16 , 9 , 27 .
+                16 , 13 , 9 , 27 , 8 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/CMR>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                16 , 22 ;
+        <http://dbpedia.org/ontology/residence>
+                10 , 28 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Cameroon" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                40 , 27 , 5 , 10 , 16 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GUY>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                5 ;
+        <http://dbpedia.org/ontology/residence>
+                6 , 4 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Guyana" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                9 , 6 , 5 , 2 , 1 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GEO>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                1 , 2 ;
+        <http://dbpedia.org/ontology/residence>
+                1 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Georgia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "EECA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 0 , 1 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/COG>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 6 ;
+        <http://dbpedia.org/ontology/residence>
+                10 , 5 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Congo" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 10 , 14 , 8 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/KEN>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                3 ;
+        <http://dbpedia.org/ontology/residence>
+                4 , 2 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Kenya" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "ESA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 1 , 10 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/JAM>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                1 ;
+        <http://dbpedia.org/ontology/residence>
+                1 , 0 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Jamaica" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                0 , 1 , 2 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/DZA>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                4 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 6 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Algeria" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "MENA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                4 , 3 , 2 , 1 , 9 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BLZ>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                9 , 10 ;
+        <http://dbpedia.org/ontology/residence>
+                12 , 4 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Belize" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                13 , 2 , 9 , 15 , 4 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GAB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                3 , 4 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 5 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Gabon" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                4 , 1 , 2 , 7 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/CIV>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                27 , 38 ;
+        <http://dbpedia.org/ontology/residence>
+                26 , 40 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "CÃ´te d'Ivoire" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                22 , 50 , 37 , 25 , 33 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GHA>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                6 , 8 ;
+        <http://dbpedia.org/ontology/residence>
+                8 , 6 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Ghana" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                3 , 15 , 4 , 6 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/COL>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                3 , 4 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 6 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Colombia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                1 , 8 , 3 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/SLV>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                15 , 14 ;
+        <http://dbpedia.org/ontology/residence>
+                20 , 11 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "El Salvador" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                28 , 17 , 6 , 10 , 7 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/AFG>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                56 , 25 ;
+        <http://dbpedia.org/ontology/residence>
+                23 , 46 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Afghanistan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                49 , 21 , 33 , 48 , 50 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/CUB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                2 , 3 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 2 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Cuba" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                2 , 5 , 0 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BFA>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                59 , 56 ;
+        <http://dbpedia.org/ontology/residence>
+                31 , 65 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Burkina Faso" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                67 , 49 , 77 , 62 , 32 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BGD>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                8 , 18 ;
+        <http://dbpedia.org/ontology/residence>
+                12 , 13 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Bangladesh" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "SA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                15 , 11 , 7 , 19 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/GNB>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                20 , 26 ;
+        <http://dbpedia.org/ontology/residence>
+                18 , 27 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Guinea-Bissau" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "WCA" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                28 , 27 , 20 , 26 , 16 .
+
+<http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/HTI>
+        a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
+        <http://dbpedia.org/ontology/gender>
+                5 , 7 ;
+        <http://dbpedia.org/ontology/residence>
+                3 , 8 ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
+                "Haiti" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
+                "LAC" ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" ;
+        <http://xmlns.com/foaf/0.1/wealthQuintile>
+                3 , 14 , 7 .
