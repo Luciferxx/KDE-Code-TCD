@@ -1,0 +1,14 @@
+Q1) Compare the completion Rate and Out of School Rates for females in INDIA
+
+--- PREFIX oo: <http://www.kdeproject.owl/> 
+    select ?outOfSchoolRate ?completionRate  where { 
+        ?s1 a oo:CR_LS_genderRates.
+        ?s2 a oo:OOS_LS_GenderRates.
+        ?s1 oo:femalepercent ?completionRate.
+        ?s2 oo:femalepercent ?outOfSchoolRate.
+        ?s1 oo:forISO ?iso.
+        ?s2 oo:forISO ?iso.
+        ?iso oo:name "India".
+
+        
+    }
