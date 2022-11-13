@@ -1,0 +1,104 @@
+﻿ISO,Country,Region,Sub-region,Development Regions,Total,Female,Male,Rural,Urban,Poorest,Second,Middle,Fourth,Richest
+AFG,Afghanistan,SA,SA,Least Developed,54,40,67,48,71,45,46,43,60,75
+ALB,Albania,ECA,EECA,More Developed,95,96,94,93,96,93,93,96,94,98
+DZA,Algeria,MENA,MENA,Less Developed,95,96,93,92,96,88,93,96,98,99
+AGO,Angola,SSA,ESA,Least Developed,60,57,63,27,74,19,30,61,77,89
+ARM,Armenia,ECA,EECA,Less Developed,99,99,99,100,99,99,100,98,100,100
+BGD,Bangladesh,SA,SA,Least Developed,83,89,76,83,83,70,80,87,87,92
+BRB,Barbados,LAC,LAC,Less Developed,99,99,99,99,99,97,98,100,99,100
+BLR,Belarus,ECA,EECA,More Developed,100,100,100,100,100,100,100,100,100,100
+BLZ,Belize,LAC,LAC,Less Developed,95,96,95,95,97,89,94,98,100,99
+BEN,Benin,SSA,WCA,Least Developed,48,44,51,41,58,21,33,45,58,76
+BTN,Bhutan,SA,SA,Least Developed,69,71,67,60,89,43,55,68,83,90
+BIH,Bosnia and Herzegovina,ECA,EECA,More Developed,100,100,99,99,100,100,100,98,100,100
+BRA,Brazil,LAC,LAC,Less Developed,96,97,95,92,96,92,96,97,98,99
+BFA,Burkina Faso,SSA,WCA,Least Developed,31,29,32,21,58,10,17,22,35,60
+BDI,Burundi,SSA,ESA,Least Developed,50,54,46,47,70,26,39,54,57,64
+KHM,Cambodia,EAP,EAP,Least Developed,73,79,68,71,85,48,64,75,86,90
+CMR,Cameroon,SSA,WCA,Less Developed,74,74,75,58,89,33,64,79,91,96
+CAF,Central African Republic,SSA,WCA,Least Developed,27,24,30,10,49,9,8,13,31,57
+TCD,Chad,SSA,WCA,Least Developed,27,23,30,19,55,9,10,19,31,57
+COL,Colombia,LAC,LAC,Less Developed,93,95,91,87,95,84,92,95,98,98
+COM,Comoros,SSA,ESA,Least Developed,76,77,75,71,86,50,71,80,83,91
+COG,Congo,SSA,WCA,Less Developed,80,82,78,55,90,42,71,85,92,96
+CRI,Costa Rica,LAC,LAC,Less Developed,98,99,98,98,98,95,99,98,99,100
+CUB,Cuba,LAC,LAC,Less Developed,100,100,100,99,100,99,99,100,100,100
+CIV,Côte d'Ivoire,SSA,WCA,Less Developed,56,53,60,39,70,24,49,54,67,75
+COD,Democratic Republic of the Congo,SSA,WCA,Least Developed,67,66,67,53,81,42,53,63,75,93
+DOM,Dominican Republic,LAC,LAC,Less Developed,91,93,88,88,91,79,90,92,95,97
+EGY,Egypt,MENA,MENA,Less Developed,91,92,91,90,93,87,89,91,92,97
+SLV,El Salvador,LAC,LAC,Less Developed,86,89,84,81,91,71,83,91,96,97
+SWZ,Eswatini,SSA,ESA,Less Developed,70,77,64,67,85,54,62,70,84,89
+ETH,Ethiopia,SSA,ESA,Least Developed,47,48,47,40,78,26,30,41,49,75
+GAB,Gabon,SSA,WCA,Less Developed,71,75,66,33,76,33,67,75,81,91
+GMB,Gambia,SSA,WCA,Least Developed,62,60,64,46,75,49,54,51,67,85
+GEO,Georgia,ECA,EECA,Less Developed,100,100,100,100,100,100,100,100,100,100
+GHA,Ghana,SSA,WCA,Less Developed,71,73,69,65,79,52,65,75,81,86
+GTM,Guatemala,LAC,LAC,Less Developed,78,76,80,72,87,56,71,78,91,96
+GIN,Guinea,SSA,WCA,Least Developed,45,39,52,27,67,15,28,34,55,73
+GNB,Guinea-Bissau,SSA,WCA,Least Developed,27,25,29,14,47,10,14,17,33,57
+GUY,Guyana,LAC,LAC,Less Developed,97,99,96,97,98,93,98,98,100,98
+HTI,Haiti,LAC,LAC,Least Developed,54,58,49,43,70,22,41,53,71,80
+HND,Honduras,LAC,LAC,Less Developed,87,89,85,83,93,72,84,90,95,99
+IND,India,SA,SA,Less Developed,91,91,92,91,93,80,91,94,96,99
+IDN,Indonesia,EAP,EAP,Less Developed,97,98,96,95,98,91,97,97,98,100
+IRQ,Iraq,MENA,MENA,Less Developed,76,73,78,69,79,54,68,77,87,93
+JAM,Jamaica,LAC,LAC,Less Developed,99,100,99,100,99,98,100,100,100,100
+JOR,Jordan,MENA,MENA,Less Developed,96,97,96,97,96,91,97,98,99,97
+KAZ,Kazakhstan,ECA,EECA,Less Developed,100,100,100,100,100,100,100,100,100,100
+KEN,Kenya,SSA,ESA,Less Developed,79,82,77,76,87,58,75,84,90,94
+KIR,Kiribati,EAP,EAP,Least Developed,94,96,92,93,96,88,93,96,97,96
+KGZ,Kyrgyzstan,ECA,EECA,Less Developed,99,100,99,99,100,100,100,99,99,99
+LAO,Lao People's Democratic Republic,EAP,EAP,Least Developed,83,83,84,79,95,58,80,91,97,98
+LSO,Lesotho,SSA,ESA,Least Developed,80,92,69,74,92,58,77,82,87,96
+LBR,Liberia,SSA,WCA,Least Developed,34,33,36,15,44,10,12,23,39,57
+MDG,Madagascar,SSA,ESA,Least Developed,56,60,52,50,74,18,38,57,73,89
+MWI,Malawi,SSA,ESA,Least Developed,47,52,43,43,73,25,34,43,54,73
+MLI,Mali,SSA,WCA,Least Developed,45,41,50,36,75,16,25,38,55,79
+MRT,Mauritania,SSA,WCA,Least Developed,63,58,68,54,72,49,51,61,69,86
+MNG,Mongolia,EAP,EAP,Less Developed,97,98,96,96,98,93,97,100,99,99
+MNE,Montenegro,ECA,EECA,More Developed,96,98,95,98,95,89,95,100,100,98
+MOZ,Mozambique,SSA,ESA,Least Developed,41,39,44,25,67,11,15,31,47,78
+MMR,Myanmar,EAP,EAP,Least Developed,83,84,82,81,90,64,84,88,90,92
+NAM,Namibia,SSA,ESA,Less Developed,81,86,75,74,89,66,69,82,89,97
+NPL,Nepal,SA,SA,Least Developed,82,83,81,79,83,76,79,80,84,96
+NER,Niger,SSA,WCA,Least Developed,29,24,35,19,61,8,20,17,25,58
+NGA,Nigeria,SSA,WCA,Less Developed,71,71,71,57,87,27,57,79,92,96
+MKD,North Macedonia,ECA,EECA,More Developed,98,100,97,99,98,97,97,99,100,100
+PAK,Pakistan,SA,SA,Less Developed,60,55,64,52,75,28,48,64,78,92
+PAN,Panama,LAC,LAC,Less Developed,95,96,95,88,99,81,98,99,99,100
+PRY,Paraguay,LAC,LAC,Less Developed,94,96,93,91,96,89,93,94,99,98
+PER,Peru,LAC,LAC,Less Developed,95,95,95,92,96,88,95,96,97,99
+PHL,Philippines,EAP,EAP,Less Developed,92,95,89,91,93,78,92,94,97,98
+MDA,Republic of Moldova,ECA,EECA,More Developed,99,99,99,99,99,97,99,99,100,100
+RWA,Rwanda,SSA,ESA,Least Developed,54,61,48,51,68,33,47,55,60,67
+LCA,Saint Lucia,LAC,LAC,Less Developed,99,99,99,99,100,98,98,100,100,100
+WSM,Samoa,EAP,EAP,Less Developed,98,99,96,98,98,97,97,99,97,98
+STP,Sao Tome and Principe,SSA,WCA,Least Developed,87,92,82,88,87,74,83,87,92,98
+SEN,Senegal,SSA,WCA,Least Developed,47,50,44,34,64,26,39,42,55,75
+SRB,Serbia,ECA,EECA,More Developed,100,100,100,100,100,99,100,100,100,100
+SLE,Sierra Leone,SSA,WCA,Least Developed,64,65,63,45,83,33,40,62,82,87
+ZAF,South Africa,SSA,ESA,Less Developed,96,98,95,95,97,91,97,97,99,99
+SSD,South Sudan,SSA,ESA,Least Developed,25,18,31,19,39,7,10,18,30,46
+LKA,Sri Lanka,SA,SA,Less Developed,99,99,99,99,99,98,99,99,100,100
+PSE,State of Palestine,MENA,MENA,Less Developed,100,100,99,100,99,99,99,100,100,100
+SDN,Sudan,SSA,ESA,Least Developed,65,64,66,57,81,42,50,58,84,94
+SUR,Suriname,LAC,LAC,Less Developed,85,90,80,77,89,67,82,91,95,98
+TJK,Tajikistan,ECA,EECA,Less Developed,98,98,99,99,97,98,99,99,100,96
+THA,Thailand,EAP,EAP,Less Developed,99,99,98,98,99,97,97,99,99,100
+TLS,Timor-Leste,EAP,EAP,Least Developed,81,85,77,76,92,60,71,78,90,96
+TGO,Togo,SSA,WCA,Least Developed,80,76,83,76,86,62,77,82,87,88
+TON,Tonga,EAP,EAP,Less Developed,98,99,98,99,96,97,98,98,99,99
+TUN,Tunisia,MENA,MENA,Less Developed,95,97,94,91,97,88,94,98,97,99
+TUR,Turkey,ECA,EECA,Less Developed,98,98,99,96,99,96,98,99,100,100
+TKM,Turkmenistan,ECA,EECA,Less Developed,100,100,100,100,100,100,100,100,100,100
+TCA,Turks and Caicos Islands,LAC,LAC,Not Classified,99,100,98,100,99,100,100,100,92,100
+TUV,Tuvalu,EAP,EAP,Least Developed,99,100,98,100,99,100,100,100,95,100
+UGA,Uganda,SSA,ESA,Least Developed,41,43,39,36,61,17,25,40,52,69
+UKR,Ukraine,ECA,EECA,More Developed,100,99,100,99,100,100,98,100,100,100
+TZA,United Republic of Tanzania,SSA,ESA,Least Developed,80,84,75,74,89,61,68,78,86,94
+URY,Uruguay,LAC,LAC,Less Developed,97,98,96,97,97,93,100,99,95,100
+VNM,Viet Nam,EAP,EAP,Less Developed,97,97,96,96,99,90,98,99,99,99
+YEM,Yemen,MENA,MENA,Least Developed,63,55,70,56,79,33,53,66,74,86
+ZMB,Zambia,SSA,ESA,Least Developed,72,73,71,61,87,39,56,75,86,93
+ZWE,Zimbabwe,SSA,ESA,Less Developed,89,92,86,86,97,78,86,89,93,98

@@ -11,7 +11,7 @@
 
 <#Lower_SecondaryTriplesMap>
          a rr:TriplesMap ; 
-         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:logicalTable [ rr:tableName "CompletionRate_LowerSecondary" ] ;
          rr:subjectMap [
                rr:template "http://www.kdeproject.owl/{ISO}" ;
                rr:class ourontology:ISO ;
@@ -30,10 +30,10 @@
 
 <#Lower_SecondaryGenderRates>   
          a rr:TriplesMap ; 
-         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:logicalTable [ rr:tableName "CompletionRate_LowerSecondary" ] ;
               rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/OOS_LS_Gender{ISO}" ;
-               rr:class ourontology:OOS_LS_GenderRates ;
+               rr:template "http://www.kdeproject.owl/CR_LS_Gender{ISO}" ;
+               rr:class ourontology:CR_LS_GenderRates ;
          ] ;               
          rr:predicateObjectMap [
                rr:predicate ourontology:femalepercent;
@@ -60,10 +60,10 @@
 
 <#Lower_SecondaryDemography>
          a rr:TriplesMap ; 
-         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:logicalTable [ rr:tableName "CompletionRate_LowerSecondary" ] ;
               rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/OOS_LS_Demography{ISO}" ;
-               rr:class ourontology:OOS_LS_Demography ;
+               rr:template "http://www.kdeproject.owl/CR_LS_Demography{ISO}" ;
+               rr:class ourontology:CR_LS_Demography ;
          ] ;
          rr:predicateObjectMap [
                rr:predicate ourontology:ruralResidence;
@@ -89,10 +89,10 @@
 
 <#Lower_SecondaryWealthQuinitile>
          a rr:TriplesMap ; 
-         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:logicalTable [ rr:tableName "CompletionRate_LowerSecondary" ] ;
               rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/OOS_LS_WealthQuintile{ISO}" ;
-               rr:class ourontology:OOS_LS_WealthQuintile ;
+               rr:template "http://www.kdeproject.owl/CR_LS_WealthQuintile{ISO}" ;
+               rr:class ourontology:CR_LS_WealthQuintile ;
          ] ;
          rr:predicateObjectMap [
                rr:predicate ourontology:poorestquintile ;
