@@ -6,6 +6,8 @@
                 10 , 28 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Angola" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -21,6 +23,8 @@
                 2 , 3 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Costa Rica" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -36,12 +40,14 @@
                 2 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Albania" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "More Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                1 , 4 , 2 .
+                1 , 2 , 4 .
 
 <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BEN>
         a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
@@ -51,6 +57,8 @@
                 48 , 31 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Benin" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -66,6 +74,8 @@
                 62 , 26 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Guinea" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -81,6 +91,8 @@
                 57 , 33 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Chad" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -96,6 +108,8 @@
                 8 , 11 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Egypt" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "MENA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -111,6 +125,8 @@
                 0 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Belarus" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -126,6 +142,8 @@
                 5 , 4 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Eswatini" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -141,6 +159,8 @@
                 22 , 33 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Ethiopia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -156,6 +176,8 @@
                 9 , 11 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Kiribati" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "EAP" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -171,6 +193,8 @@
                 33 , 11 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Central African Republic" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -186,6 +210,8 @@
                 12 , 21 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Democratic Republic of the Congo" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -201,6 +227,8 @@
                 6 , 4 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Indonesia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "EAP" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -216,6 +244,8 @@
                 36 , 18 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Guatemala" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -231,6 +261,8 @@
                 23 , 10 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Bhutan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -246,12 +278,14 @@
                 1 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Barbados" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 2 , 1 .
+                2 , 0 , 1 .
 
 <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BIH>
         a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
@@ -261,6 +295,8 @@
                 1 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Bosnia and Herzegovina" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -276,6 +312,8 @@
                 23 , 45 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Gambia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -291,6 +329,8 @@
                 1 , 0 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Armenia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -306,6 +346,8 @@
                 20 , 31 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Burundi" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -321,6 +363,8 @@
                 30 , 17 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Iraq" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "MENA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -336,6 +380,8 @@
                 0 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Kazakhstan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -349,12 +395,14 @@
                 1 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Argentina" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 1 , 2 .
+                2 , 1 , 0 .
 
 <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/BRA>
         a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
@@ -364,12 +412,14 @@
                 1 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Brazil" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" ;
         <http://xmlns.com/foaf/0.1/wealthQuintile>
-                0 , 1 .
+                1 , 0 .
 
 <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/IND>
         a       <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#ISO> ;
@@ -379,6 +429,8 @@
                 6 , 8 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "India" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -394,6 +446,8 @@
                 40 , 15 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Honduras" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -409,6 +463,8 @@
                 5 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Jordan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "MENA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -424,6 +480,8 @@
                 26 , 20 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Cambodia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "EAP" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EAP" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -439,6 +497,8 @@
                 3 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Dominican Republic" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -454,6 +514,8 @@
                 16 , 11 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Comoros" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -469,6 +531,8 @@
                 10 , 28 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Cameroon" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -484,6 +548,8 @@
                 6 , 4 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Guyana" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -499,6 +565,8 @@
                 1 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Georgia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "ECA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "EECA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -514,6 +582,8 @@
                 10 , 5 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Congo" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -529,6 +599,8 @@
                 4 , 2 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Kenya" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "ESA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -544,6 +616,8 @@
                 1 , 0 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Jamaica" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -559,6 +633,8 @@
                 3 , 6 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Algeria" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "MENA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "MENA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -574,6 +650,8 @@
                 12 , 4 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Belize" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -589,6 +667,8 @@
                 3 , 5 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Gabon" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -604,6 +684,8 @@
                 26 , 40 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "CÃ´te d'Ivoire" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -619,6 +701,8 @@
                 8 , 6 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Ghana" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -634,6 +718,8 @@
                 3 , 6 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Colombia" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -649,6 +735,8 @@
                 20 , 11 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "El Salvador" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -664,6 +752,8 @@
                 23 , 46 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Afghanistan" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -679,6 +769,8 @@
                 3 , 2 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Cuba" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -694,6 +786,8 @@
                 31 , 65 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Burkina Faso" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -709,6 +803,8 @@
                 12 , 13 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Bangladesh" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "SA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -724,6 +820,8 @@
                 18 , 27 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Guinea-Bissau" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "SSA" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "WCA" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
@@ -739,6 +837,8 @@
                 3 , 8 ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#COUNTRY>
                 "Haiti" ;
+        <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#REGION>
+                "LAC" ;
         <http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl#SUBREGION>
                 "LAC" ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>

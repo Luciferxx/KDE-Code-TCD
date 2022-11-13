@@ -14,10 +14,10 @@
                rr:template "http://www.semanticweb.org/vatsa/ontologies/2022/10/out-of-school-primary.owl/{ISO}" ;
                rr:class ourontology:ISO ;
          ] ;
-      #    rr:predicateObjectMap [
-      #          rr:predicate dbpedia:isoCodeRegion  ;
-      #          rr:objectMap [ rr:column "REGION" ] ;
-      #    ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:REGION  ;
+               rr:objectMap [ rr:column "REGION" ] ;
+         ] ;
          rr:predicateObjectMap [
                rr:predicate ourontology:SUBREGION ;
                rr:objectMap [ rr:column "SUBREGION" ] ;
