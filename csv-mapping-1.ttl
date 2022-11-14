@@ -18,8 +18,8 @@
          ] ;
 
          rr:predicateObjectMap [
-               rr:predicate ourontology:name ;
-               rr:objectMap [ rr:column "COUNTRY" ] ;
+               rr:predicate ourontology:representsCountry ;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{COUNTRY}" ] ;
          ] ;
 
          rr:predicateObjectMap [
@@ -35,22 +35,49 @@
                rr:template "http://www.kdeproject.owl/{COUNTRY}" ;
                rr:class ourontology:Country ;
          ] ;
-           rr:predicateObjectMap [
-               rr:predicate ourontology:hasSubRegion;
-               rr:objectMap [ rr:column "SUBREGION" ] ;
+      
+            rr:predicateObjectMap [
+               rr:predicate ourontology:countryName;
+               rr:objectMap [ rr:column "COUNTRY" ] ;
          ] ;
 
-         rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#Lower_SecondaryTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-      ]
-      .
+          rr:predicateObjectMap [
+          rr:predicate ourontology:hasSubRegion;
+          rr:objectMap [ rr:template "http://www.kdeproject.owl/{SUBREGION}" ];
+    ]
+    .
+
+<#SubRegionTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{SUBREGION}" ;
+               rr:class ourontology:SubRegion ;
+         ] ;
+       rr:predicateObjectMap [
+               rr:predicate ourontology:subRegionName;
+               rr:objectMap [ rr:column "SUBREGION" ] ;
+         ] ;
+      rr:predicateObjectMap [
+               rr:predicate ourontology:hasRegion;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{REGION}" ] ;
+         ] 
+         .
+
+<#RegionTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{REGION}" ;
+               rr:class ourontology:Region ;
+         ] ;
+   
+      rr:predicateObjectMap [
+               rr:predicate ourontology:regionName;
+               rr:objectMap [ rr:column "REGION" ] ;
+         ] 
+         .
+
 <#Lower_SecondaryGenderRates>   
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
