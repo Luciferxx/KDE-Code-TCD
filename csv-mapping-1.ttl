@@ -28,6 +28,29 @@
          ] ;
          .
 
+<#CountryTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{COUNTRY}" ;
+               rr:class ourontology:Country ;
+         ] ;
+           rr:predicateObjectMap [
+               rr:predicate ourontology:hasSubRegion;
+               rr:objectMap [ rr:column "SUBREGION" ] ;
+         ] ;
+
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#Lower_SecondaryTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+      ]
+      .
 <#Lower_SecondaryGenderRates>   
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
