@@ -1,0 +1,188 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ourontology: <http://www.kdeproject.owl/ict/> .
+
+<#IctBaseTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/{ISO}" ;
+               rr:class ourontology:ISO ;
+         ] ;
+
+         .
+<#CountryTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ;
+               rr:class ourontology:Country ;
+         ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:name;
+               rr:objectMap [rr:column "COUNTRY"];  
+         ] ; 
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#IctBaseTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+         .
+<#RegionTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/{REGION}" ;
+               rr:class ourontology:Region ;
+         ] ;
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#IctBaseTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+         .
+<#DemoGraphyTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/demo_{ISO}" ;
+               rr:class ourontology:ICT_Demography ;
+         ] ;
+        rr:predicateObjectMap [
+               rr:predicate ourontology:demoResidence;
+               rr:objectMap [rr:column "AREA"];  
+         ] ; 
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#IctBaseTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+         .
+<#GenderTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/gender_{ISO}" ;
+               rr:class ourontology:ICT_Gender ;
+         ] ;
+        rr:predicateObjectMap [
+               rr:predicate ourontology:genderResidence;
+               rr:objectMap [rr:column "SEX"];  
+         ] ; 
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#IctBaseTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+         .
+<#TaskPerformedTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "ict_area" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/TaskPerformed_{ISO}" ;
+               rr:class ourontology:ICT_TaskPerformed ;
+         ] ;
+         #Copied or moved a file or folder
+        rr:predicateObjectMap [
+               rr:predicate ourontology:COP_FOLD_FILE;
+               rr:objectMap [rr:column "COP_FOLD_FILE";
+               rr:datatype xsd:double; ];  
+         ] ; 
+        #Used a copy and paste tool to duplicate or move information within a document
+
+         rr:predicateObjectMap [
+               rr:predicate ourontology:COPY_PASTE_DOC;
+               rr:objectMap [rr:column "COPY_PASTE_DOC";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Sent e-mail with attached file, such as a document, picture or video
+         rr:predicateObjectMap [
+               rr:predicate ourontology:EMAIL_WITH_ATTACHMENT;
+               rr:objectMap [rr:column "EMAIL_WITH_ATTACHMENT";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Used a basic arithmetic formula in a spreadsheet
+         rr:predicateObjectMap [
+               rr:predicate ourontology:ARTHIMETIC_IN_SPREADSHEET;
+               rr:objectMap [rr:column "ARTHIMETIC_IN_SPREADSHEET";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Connected and installed a new device, such as a modem, camera or printer
+         rr:predicateObjectMap [
+               rr:predicate ourontology:INSTALL_A_NEW_DEVICE;
+               rr:objectMap [rr:column "INSTALL_A_NEW_DEVICE";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Found, downloaded, installed and configured software 
+         rr:predicateObjectMap [
+               rr:predicate ourontology:INSTALL_SOFTWARE;
+               rr:objectMap [rr:column "INSTALL_SOFTWARE";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Created an electronic presentation with presentation software, including text, images, sound, video or charts
+         rr:predicateObjectMap [
+               rr:predicate ourontology:PRESENTATION_WITH_CONTENT;
+               rr:objectMap [rr:column "PRESENTATION_WITH_CONTENT";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Transferred a file between a computer and other device
+
+        rr:predicateObjectMap [
+               rr:predicate ourontology:TRANSFER_FILE;
+               rr:objectMap [rr:column "TRANSFER_FILE";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Wrote a computer program in any programming language
+
+         rr:predicateObjectMap [
+               rr:predicate ourontology:COMPUTER_PROGRAM_IN_PROGLANG;
+               rr:objectMap [rr:column "COMPUTER_PROGRAM_IN_PROGLANG";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         #Performed at least one out of nine activities
+
+         rr:predicateObjectMap [
+               rr:predicate ourontology:PERFORM_ACTIVITES;
+               rr:objectMap [rr:column "PERFORM_ACTIVITES";
+               rr:datatype xsd:double;
+               ];  
+         ] ; 
+         rr:predicateObjectMap [
+            rr:predicate ourontology:hasISOCode;
+            rr:objectMap [
+            rr:parentTriplesMap <#IctBaseTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+         .

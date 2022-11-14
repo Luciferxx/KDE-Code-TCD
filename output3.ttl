@@ -1,0 +1,1628 @@
+<http://www.kdeproject.owl/ict/gender_GHA>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GHA> .
+
+<http://www.kdeproject.owl/ict/PAK>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/gender_SLE>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SLE> .
+
+<http://www.kdeproject.owl/ict/Pakistan%20%28Khyber%20Pakhtunkhwa%29>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Pakistan (Khyber Pakhtunkhwa)" .
+
+<http://www.kdeproject.owl/ict/KIR>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/demo_STP>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/STP> .
+
+<http://www.kdeproject.owl/ict/EC>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCA> .
+
+<http://www.kdeproject.owl/ict/gender_ZWE>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ZWE> .
+
+<http://www.kdeproject.owl/ict/TCD>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Guinea%20Bissau>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GNB> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Guinea Bissau" .
+
+<http://www.kdeproject.owl/ict/Tunisia>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUN> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Tunisia" .
+
+<http://www.kdeproject.owl/ict/GMB>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/demo_COD>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/COD> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_CAF>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.025"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.077"^^<http://www.w3.org/2001/XMLSchema#double> , "0.025"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.053"^^<http://www.w3.org/2001/XMLSchema#double> , "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.013"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.089"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CAF> .
+
+<http://www.kdeproject.owl/ict/demo_TUN>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUN> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_MDG>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.058"^^<http://www.w3.org/2001/XMLSchema#double> , "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> , "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.195"^^<http://www.w3.org/2001/XMLSchema#double> , "0.094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.19"^^<http://www.w3.org/2001/XMLSchema#double> , "0.087"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.093"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.106"^^<http://www.w3.org/2001/XMLSchema#double> , "0.047"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.117"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> , "0.136"^^<http://www.w3.org/2001/XMLSchema#double> , "0.229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.081"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.194"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MDG> .
+
+<http://www.kdeproject.owl/ict/demo_VNM>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/VNM> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_IRQ>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.032"^^<http://www.w3.org/2001/XMLSchema#double> , "0.029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.072"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.072"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.09"^^<http://www.w3.org/2001/XMLSchema#double> , "0.055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/IRQ> .
+
+<http://www.kdeproject.owl/ict/DZA>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_SUR>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.091"^^<http://www.w3.org/2001/XMLSchema#double> , "0.139"^^<http://www.w3.org/2001/XMLSchema#double> , "0.076"^^<http://www.w3.org/2001/XMLSchema#double> , "0.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.058"^^<http://www.w3.org/2001/XMLSchema#double> , "0.043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.218"^^<http://www.w3.org/2001/XMLSchema#double> , "0.134"^^<http://www.w3.org/2001/XMLSchema#double> , "0.365"^^<http://www.w3.org/2001/XMLSchema#double> , "0.383"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.293"^^<http://www.w3.org/2001/XMLSchema#double> , "0.131"^^<http://www.w3.org/2001/XMLSchema#double> , "0.343"^^<http://www.w3.org/2001/XMLSchema#double> , "0.204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.312"^^<http://www.w3.org/2001/XMLSchema#double> , "0.108"^^<http://www.w3.org/2001/XMLSchema#double> , "0.133"^^<http://www.w3.org/2001/XMLSchema#double> , "0.29"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.077"^^<http://www.w3.org/2001/XMLSchema#double> , "0.195"^^<http://www.w3.org/2001/XMLSchema#double> , "0.069"^^<http://www.w3.org/2001/XMLSchema#double> , "0.141"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.107"^^<http://www.w3.org/2001/XMLSchema#double> , "0.217"^^<http://www.w3.org/2001/XMLSchema#double> , "0.069"^^<http://www.w3.org/2001/XMLSchema#double> , "0.183"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.465"^^<http://www.w3.org/2001/XMLSchema#double> , "0.208"^^<http://www.w3.org/2001/XMLSchema#double> , "0.448"^^<http://www.w3.org/2001/XMLSchema#double> , "0.258"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.082"^^<http://www.w3.org/2001/XMLSchema#double> , "0.172"^^<http://www.w3.org/2001/XMLSchema#double> , "0.103"^^<http://www.w3.org/2001/XMLSchema#double> , "0.209"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.266"^^<http://www.w3.org/2001/XMLSchema#double> , "0.23"^^<http://www.w3.org/2001/XMLSchema#double> , "0.108"^^<http://www.w3.org/2001/XMLSchema#double> , "0.105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SUR> .
+
+<http://www.kdeproject.owl/ict/demo_TUV>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUV> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_GNB>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.143"^^<http://www.w3.org/2001/XMLSchema#double> , "0.04"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.137"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.074"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> , "0.045"^^<http://www.w3.org/2001/XMLSchema#double> , "0.166"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.092"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.251"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.219"^^<http://www.w3.org/2001/XMLSchema#double> , "0.049"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GNB> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_BGD>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.025"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.062"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.029"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/BGD> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_ARG>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.459"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.548"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.279"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.393"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ARG> .
+
+<http://www.kdeproject.owl/ict/Ghana>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GHA> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Ghana" .
+
+<http://www.kdeproject.owl/ict/Pakistan%20%28Punjab%29>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Pakistan (Punjab)" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TCA>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.329"^^<http://www.w3.org/2001/XMLSchema#double> , "0.169"^^<http://www.w3.org/2001/XMLSchema#double> , "0.35"^^<http://www.w3.org/2001/XMLSchema#double> , "0.525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.082"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> , "0.276"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.387"^^<http://www.w3.org/2001/XMLSchema#double> , "0.481"^^<http://www.w3.org/2001/XMLSchema#double> , "0.666"^^<http://www.w3.org/2001/XMLSchema#double> , "0.677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.446"^^<http://www.w3.org/2001/XMLSchema#double> , "0.293"^^<http://www.w3.org/2001/XMLSchema#double> , "0.627"^^<http://www.w3.org/2001/XMLSchema#double> , "0.513"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.632"^^<http://www.w3.org/2001/XMLSchema#double> , "0.677"^^<http://www.w3.org/2001/XMLSchema#double> , "0.437"^^<http://www.w3.org/2001/XMLSchema#double> , "0.714"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.426"^^<http://www.w3.org/2001/XMLSchema#double> , "0.225"^^<http://www.w3.org/2001/XMLSchema#double> , "0.419"^^<http://www.w3.org/2001/XMLSchema#double> , "0.467"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.17"^^<http://www.w3.org/2001/XMLSchema#double> , "0.315"^^<http://www.w3.org/2001/XMLSchema#double> , "0.415"^^<http://www.w3.org/2001/XMLSchema#double> , "0.469"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.853"^^<http://www.w3.org/2001/XMLSchema#double> , "0.634"^^<http://www.w3.org/2001/XMLSchema#double> , "0.638"^^<http://www.w3.org/2001/XMLSchema#double> , "0.714"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.375"^^<http://www.w3.org/2001/XMLSchema#double> , "0.306"^^<http://www.w3.org/2001/XMLSchema#double> , "0.4"^^<http://www.w3.org/2001/XMLSchema#double> , "0.465"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.527"^^<http://www.w3.org/2001/XMLSchema#double> , "0.548"^^<http://www.w3.org/2001/XMLSchema#double> , "0.401"^^<http://www.w3.org/2001/XMLSchema#double> , "0.385"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCA> .
+
+<http://www.kdeproject.owl/ict/demo_WSM>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/WSM> .
+
+<http://www.kdeproject.owl/ict/demo_LAO>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LAO> .
+
+<http://www.kdeproject.owl/ict/demo_CUB>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CUB> .
+
+<http://www.kdeproject.owl/ict/demo_NPL>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/NPL> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_MNG>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.251"^^<http://www.w3.org/2001/XMLSchema#double> , "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.198"^^<http://www.w3.org/2001/XMLSchema#double> , "0.411"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.38"^^<http://www.w3.org/2001/XMLSchema#double> , "0.162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.133"^^<http://www.w3.org/2001/XMLSchema#double> , "0.284"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.086"^^<http://www.w3.org/2001/XMLSchema#double> , "0.181"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.11"^^<http://www.w3.org/2001/XMLSchema#double> , "0.225"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.262"^^<http://www.w3.org/2001/XMLSchema#double> , "0.487"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.114"^^<http://www.w3.org/2001/XMLSchema#double> , "0.269"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.254"^^<http://www.w3.org/2001/XMLSchema#double> , "0.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MNG> .
+
+<http://www.kdeproject.owl/ict/demo_TGO>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TGO> .
+
+<http://www.kdeproject.owl/ict/gender_CAF>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CAF> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TKM>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.086"^^<http://www.w3.org/2001/XMLSchema#double> , "0.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.237"^^<http://www.w3.org/2001/XMLSchema#double> , "0.355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.254"^^<http://www.w3.org/2001/XMLSchema#double> , "0.386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.159"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.152"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.083"^^<http://www.w3.org/2001/XMLSchema#double> , "0.035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.293"^^<http://www.w3.org/2001/XMLSchema#double> , "0.435"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.046"^^<http://www.w3.org/2001/XMLSchema#double> , "0.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.197"^^<http://www.w3.org/2001/XMLSchema#double> , "0.317"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TKM> .
+
+<http://www.kdeproject.owl/ict/gender_MDG>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MDG> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_MWI>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> , "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.067"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.067"^^<http://www.w3.org/2001/XMLSchema#double> , "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MWI> .
+
+<http://www.kdeproject.owl/ict/gender_IRQ>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/IRQ> .
+
+<http://www.kdeproject.owl/ict/Zimbabwe>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ZWE> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Zimbabwe" .
+
+<http://www.kdeproject.owl/ict/Congo%20DR>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/COD> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Congo DR" .
+
+<http://www.kdeproject.owl/ict/gender_SUR>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SUR> .
+
+<http://www.kdeproject.owl/ict/gender_GNB>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GNB> .
+
+<http://www.kdeproject.owl/ict/Sierra%20Leone>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SLE> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Sierra Leone" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_LSO>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.157"^^<http://www.w3.org/2001/XMLSchema#double> , "0.061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.155"^^<http://www.w3.org/2001/XMLSchema#double> , "0.06"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.097"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.096"^^<http://www.w3.org/2001/XMLSchema#double> , "0.043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.218"^^<http://www.w3.org/2001/XMLSchema#double> , "0.092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.053"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.061"^^<http://www.w3.org/2001/XMLSchema#double> , "0.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LSO> .
+
+<http://www.kdeproject.owl/ict/gender_ARG>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ARG> .
+
+<http://www.kdeproject.owl/ict/gender_BGD>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/BGD> .
+
+<http://www.kdeproject.owl/ict/gender_TCA>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCA> .
+
+<http://www.kdeproject.owl/ict/demo_TON>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TON> .
+
+<http://www.kdeproject.owl/ict/PSE>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/gender_MNG>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MNG> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_PAK>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> , "0.087"^^<http://www.w3.org/2001/XMLSchema#double> , "0.035"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.054"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.088"^^<http://www.w3.org/2001/XMLSchema#double> , "0.025"^^<http://www.w3.org/2001/XMLSchema#double> , "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.048"^^<http://www.w3.org/2001/XMLSchema#double> , "0.104"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> , "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0.035"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.124"^^<http://www.w3.org/2001/XMLSchema#double> , "0.217"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.244"^^<http://www.w3.org/2001/XMLSchema#double> , "0.103"^^<http://www.w3.org/2001/XMLSchema#double> , "0.106"^^<http://www.w3.org/2001/XMLSchema#double> , "0.026"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.142"^^<http://www.w3.org/2001/XMLSchema#double> , "0.062"^^<http://www.w3.org/2001/XMLSchema#double> , "0.113"^^<http://www.w3.org/2001/XMLSchema#double> , "0.041"^^<http://www.w3.org/2001/XMLSchema#double> , "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.19"^^<http://www.w3.org/2001/XMLSchema#double> , "0.121"^^<http://www.w3.org/2001/XMLSchema#double> , "0.059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.061"^^<http://www.w3.org/2001/XMLSchema#double> , "0.064"^^<http://www.w3.org/2001/XMLSchema#double> , "0.258"^^<http://www.w3.org/2001/XMLSchema#double> , "0.108"^^<http://www.w3.org/2001/XMLSchema#double> , "0.251"^^<http://www.w3.org/2001/XMLSchema#double> , "0.131"^^<http://www.w3.org/2001/XMLSchema#double> , "0.157"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.028"^^<http://www.w3.org/2001/XMLSchema#double> , "0.116"^^<http://www.w3.org/2001/XMLSchema#double> , "0.114"^^<http://www.w3.org/2001/XMLSchema#double> , "0.192"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.117"^^<http://www.w3.org/2001/XMLSchema#double> , "0.038"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.104"^^<http://www.w3.org/2001/XMLSchema#double> , "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.162"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> , "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.14"^^<http://www.w3.org/2001/XMLSchema#double> , "0.025"^^<http://www.w3.org/2001/XMLSchema#double> , "0.047"^^<http://www.w3.org/2001/XMLSchema#double> , "0.095"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> , "0.08"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.148"^^<http://www.w3.org/2001/XMLSchema#double> , "0.118"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> , "0.064"^^<http://www.w3.org/2001/XMLSchema#double> , "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.119"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.062"^^<http://www.w3.org/2001/XMLSchema#double> , "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.069"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.111"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.054"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0.075"^^<http://www.w3.org/2001/XMLSchema#double> , "0.183"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.089"^^<http://www.w3.org/2001/XMLSchema#double> , "0.182"^^<http://www.w3.org/2001/XMLSchema#double> , "0.04"^^<http://www.w3.org/2001/XMLSchema#double> , "0.087"^^<http://www.w3.org/2001/XMLSchema#double> , "0.162"^^<http://www.w3.org/2001/XMLSchema#double> , "0.083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.087"^^<http://www.w3.org/2001/XMLSchema#double> , "0.228"^^<http://www.w3.org/2001/XMLSchema#double> , "0.173"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> , "0.086"^^<http://www.w3.org/2001/XMLSchema#double> , "0.164"^^<http://www.w3.org/2001/XMLSchema#double> , "0.192"^^<http://www.w3.org/2001/XMLSchema#double> , "0.152"^^<http://www.w3.org/2001/XMLSchema#double> , "0.296"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.041"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0.12"^^<http://www.w3.org/2001/XMLSchema#double> , "0.058"^^<http://www.w3.org/2001/XMLSchema#double> , "0.141"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.084"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.087"^^<http://www.w3.org/2001/XMLSchema#double> , "0.04"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> , "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.048"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.081"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.098"^^<http://www.w3.org/2001/XMLSchema#double> , "0.066"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.095"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.121"^^<http://www.w3.org/2001/XMLSchema#double> , "0.134"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.212"^^<http://www.w3.org/2001/XMLSchema#double> , "0.086"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0.125"^^<http://www.w3.org/2001/XMLSchema#double> , "0.093"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.079"^^<http://www.w3.org/2001/XMLSchema#double> , "0.238"^^<http://www.w3.org/2001/XMLSchema#double> , "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> .
+
+<http://www.kdeproject.owl/ict/gender_TKM>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TKM> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_KIR>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.213"^^<http://www.w3.org/2001/XMLSchema#double> , "0.07"^^<http://www.w3.org/2001/XMLSchema#double> , "0.232"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.363"^^<http://www.w3.org/2001/XMLSchema#double> , "0.413"^^<http://www.w3.org/2001/XMLSchema#double> , "0.138"^^<http://www.w3.org/2001/XMLSchema#double> , "0.136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.116"^^<http://www.w3.org/2001/XMLSchema#double> , "0.118"^^<http://www.w3.org/2001/XMLSchema#double> , "0.38"^^<http://www.w3.org/2001/XMLSchema#double> , "0.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.167"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> , "0.061"^^<http://www.w3.org/2001/XMLSchema#double> , "0.256"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.045"^^<http://www.w3.org/2001/XMLSchema#double> , "0.141"^^<http://www.w3.org/2001/XMLSchema#double> , "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.067"^^<http://www.w3.org/2001/XMLSchema#double> , "0.223"^^<http://www.w3.org/2001/XMLSchema#double> , "0.179"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.158"^^<http://www.w3.org/2001/XMLSchema#double> , "0.446"^^<http://www.w3.org/2001/XMLSchema#double> , "0.398"^^<http://www.w3.org/2001/XMLSchema#double> , "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.073"^^<http://www.w3.org/2001/XMLSchema#double> , "0.24"^^<http://www.w3.org/2001/XMLSchema#double> , "0.095"^^<http://www.w3.org/2001/XMLSchema#double> , "0.239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.331"^^<http://www.w3.org/2001/XMLSchema#double> , "0.092"^^<http://www.w3.org/2001/XMLSchema#double> , "0.24"^^<http://www.w3.org/2001/XMLSchema#double> , "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/KIR> .
+
+<http://www.kdeproject.owl/ict/gender_MWI>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MWI> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TCD>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.013"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.012"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.079"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.083"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.028"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.035"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.107"^^<http://www.w3.org/2001/XMLSchema#double> , "0.057"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.057"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCD> .
+
+<http://www.kdeproject.owl/ict/STP>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/gender_LSO>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LSO> .
+
+<http://www.kdeproject.owl/ict/Nepal>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/NPL> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Nepal" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_GMB>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.077"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.065"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.067"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.096"^^<http://www.w3.org/2001/XMLSchema#double> , "0.056"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.109"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.215"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.098"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.049"^^<http://www.w3.org/2001/XMLSchema#double> , "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.168"^^<http://www.w3.org/2001/XMLSchema#double> , "0.055"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GMB> .
+
+<http://www.kdeproject.owl/ict/Turkmenistan>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TKM> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Turkmenistan" .
+
+<http://www.kdeproject.owl/ict/gender_PAK>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> .
+
+<http://www.kdeproject.owl/ict/COD>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/State%20of%20Palestine>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PSE> ;
+        <http://www.kdeproject.owl/ict/name>
+                "State of Palestine" .
+
+<http://www.kdeproject.owl/ict/gender_KIR>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/KIR> .
+
+<http://www.kdeproject.owl/ict/demo_GHA>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GHA> .
+
+<http://www.kdeproject.owl/ict/TUN>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/demo_SLE>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SLE> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_DZA>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.154"^^<http://www.w3.org/2001/XMLSchema#double> , "0.092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.129"^^<http://www.w3.org/2001/XMLSchema#double> , "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.29"^^<http://www.w3.org/2001/XMLSchema#double> , "0.163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.16"^^<http://www.w3.org/2001/XMLSchema#double> , "0.289"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.118"^^<http://www.w3.org/2001/XMLSchema#double> , "0.233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.173"^^<http://www.w3.org/2001/XMLSchema#double> , "0.088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.093"^^<http://www.w3.org/2001/XMLSchema#double> , "0.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.328"^^<http://www.w3.org/2001/XMLSchema#double> , "0.187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.151"^^<http://www.w3.org/2001/XMLSchema#double> , "0.093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.203"^^<http://www.w3.org/2001/XMLSchema#double> , "0.113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/DZA> .
+
+<http://www.kdeproject.owl/ict/gender_TCD>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCD> .
+
+<http://www.kdeproject.owl/ict/VNM>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Pakistan%20%28Azad%20Jammu%20and%20Kashmir%29>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Pakistan (Azad Jammu and Kashmir)" .
+
+<http://www.kdeproject.owl/ict/demo_ZWE>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ZWE> .
+
+<http://www.kdeproject.owl/ict/gender_GMB>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GMB> .
+
+<http://www.kdeproject.owl/ict/TUV>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Tuvalu>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUV> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Tuvalu" .
+
+<http://www.kdeproject.owl/ict/WSM>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/LAO>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/CUB>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Suriname>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SUR> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Suriname" .
+
+<http://www.kdeproject.owl/ict/NPL>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/TGO>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/gender_DZA>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/DZA> .
+
+<http://www.kdeproject.owl/ict/ESA>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ZWE> , <http://www.kdeproject.owl/ict/MWI> , <http://www.kdeproject.owl/ict/MDG> , <http://www.kdeproject.owl/ict/LSO> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_PSE>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.236"^^<http://www.w3.org/2001/XMLSchema#double> , "0.285"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.105"^^<http://www.w3.org/2001/XMLSchema#double> , "0.111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.388"^^<http://www.w3.org/2001/XMLSchema#double> , "0.348"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.375"^^<http://www.w3.org/2001/XMLSchema#double> , "0.356"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.255"^^<http://www.w3.org/2001/XMLSchema#double> , "0.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.107"^^<http://www.w3.org/2001/XMLSchema#double> , "0.121"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.201"^^<http://www.w3.org/2001/XMLSchema#double> , "0.213"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.473"^^<http://www.w3.org/2001/XMLSchema#double> , "0.442"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.272"^^<http://www.w3.org/2001/XMLSchema#double> , "0.241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.279"^^<http://www.w3.org/2001/XMLSchema#double> , "0.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PSE> .
+
+<http://www.kdeproject.owl/ict/TON>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/demo_CAF>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CAF> .
+
+<http://www.kdeproject.owl/ict/Pakistan%20%28Sindh%29>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Pakistan (Sindh)" .
+
+<http://www.kdeproject.owl/ict/Kiribati>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/KIR> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Kiribati" .
+
+<http://www.kdeproject.owl/ict/demo_MDG>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MDG> .
+
+<http://www.kdeproject.owl/ict/Central%20African%20Republic>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CAF> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Central African Republic" .
+
+<http://www.kdeproject.owl/ict/Argentina>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ARG> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Argentina" .
+
+<http://www.kdeproject.owl/ict/Togo>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TGO> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Togo" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_STP>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.042"^^<http://www.w3.org/2001/XMLSchema#double> , "0.066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.154"^^<http://www.w3.org/2001/XMLSchema#double> , "0.104"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.155"^^<http://www.w3.org/2001/XMLSchema#double> , "0.082"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.077"^^<http://www.w3.org/2001/XMLSchema#double> , "0.113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.085"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> , "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.234"^^<http://www.w3.org/2001/XMLSchema#double> , "0.145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.063"^^<http://www.w3.org/2001/XMLSchema#double> , "0.029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.153"^^<http://www.w3.org/2001/XMLSchema#double> , "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/STP> .
+
+<http://www.kdeproject.owl/ict/SA>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> , <http://www.kdeproject.owl/ict/NPL> , <http://www.kdeproject.owl/ict/BGD> .
+
+<http://www.kdeproject.owl/ict/demo_IRQ>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/IRQ> .
+
+<http://www.kdeproject.owl/ict/Samoa>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/WSM> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Samoa" .
+
+<http://www.kdeproject.owl/ict/demo_SUR>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SUR> .
+
+<http://www.kdeproject.owl/ict/gender_PSE>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PSE> .
+
+<http://www.kdeproject.owl/ict/demo_GNB>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GNB> .
+
+<http://www.kdeproject.owl/ict/demo_BGD>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/BGD> .
+
+<http://www.kdeproject.owl/ict/demo_ARG>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ARG> .
+
+<http://www.kdeproject.owl/ict/demo_TCA>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCA> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_COD>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.195"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.057"^^<http://www.w3.org/2001/XMLSchema#double> , "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.18"^^<http://www.w3.org/2001/XMLSchema#double> , "0.054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.1"^^<http://www.w3.org/2001/XMLSchema#double> , "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> , "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.07"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.078"^^<http://www.w3.org/2001/XMLSchema#double> , "0.235"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.028"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.144"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/COD> .
+
+<http://www.kdeproject.owl/ict/demo_MNG>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MNG> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TUN>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.246"^^<http://www.w3.org/2001/XMLSchema#double> , "0.114"^^<http://www.w3.org/2001/XMLSchema#double> , "0.101"^^<http://www.w3.org/2001/XMLSchema#double> , "0.201"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.107"^^<http://www.w3.org/2001/XMLSchema#double> , "0.029"^^<http://www.w3.org/2001/XMLSchema#double> , "0.055"^^<http://www.w3.org/2001/XMLSchema#double> , "0.118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.182"^^<http://www.w3.org/2001/XMLSchema#double> , "0.367"^^<http://www.w3.org/2001/XMLSchema#double> , "0.158"^^<http://www.w3.org/2001/XMLSchema#double> , "0.373"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.387"^^<http://www.w3.org/2001/XMLSchema#double> , "0.388"^^<http://www.w3.org/2001/XMLSchema#double> , "0.202"^^<http://www.w3.org/2001/XMLSchema#double> , "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.294"^^<http://www.w3.org/2001/XMLSchema#double> , "0.133"^^<http://www.w3.org/2001/XMLSchema#double> , "0.136"^^<http://www.w3.org/2001/XMLSchema#double> , "0.284"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.084"^^<http://www.w3.org/2001/XMLSchema#double> , "0.213"^^<http://www.w3.org/2001/XMLSchema#double> , "0.071"^^<http://www.w3.org/2001/XMLSchema#double> , "0.214"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.104"^^<http://www.w3.org/2001/XMLSchema#double> , "0.148"^^<http://www.w3.org/2001/XMLSchema#double> , "0.252"^^<http://www.w3.org/2001/XMLSchema#double> , "0.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.502"^^<http://www.w3.org/2001/XMLSchema#double> , "0.247"^^<http://www.w3.org/2001/XMLSchema#double> , "0.261"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.156"^^<http://www.w3.org/2001/XMLSchema#double> , "0.202"^^<http://www.w3.org/2001/XMLSchema#double> , "0.102"^^<http://www.w3.org/2001/XMLSchema#double> , "0.065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.105"^^<http://www.w3.org/2001/XMLSchema#double> , "0.24"^^<http://www.w3.org/2001/XMLSchema#double> , "0.261"^^<http://www.w3.org/2001/XMLSchema#double> , "0.132"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUN> .
+
+<http://www.kdeproject.owl/ict/demo_TKM>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TKM> .
+
+<http://www.kdeproject.owl/ict/Turks%20and%20Caicos%20Islands>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCA> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Turks and Caicos Islands" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_VNM>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.36"^^<http://www.w3.org/2001/XMLSchema#double> , "0.418"^^<http://www.w3.org/2001/XMLSchema#double> , "0.16"^^<http://www.w3.org/2001/XMLSchema#double> , "0.165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.044"^^<http://www.w3.org/2001/XMLSchema#double> , "0.06"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.189"^^<http://www.w3.org/2001/XMLSchema#double> , "0.445"^^<http://www.w3.org/2001/XMLSchema#double> , "0.449"^^<http://www.w3.org/2001/XMLSchema#double> , "0.191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.476"^^<http://www.w3.org/2001/XMLSchema#double> , "0.48"^^<http://www.w3.org/2001/XMLSchema#double> , "0.222"^^<http://www.w3.org/2001/XMLSchema#double> , "0.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.18"^^<http://www.w3.org/2001/XMLSchema#double> , "0.493"^^<http://www.w3.org/2001/XMLSchema#double> , "0.475"^^<http://www.w3.org/2001/XMLSchema#double> , "0.159"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.321"^^<http://www.w3.org/2001/XMLSchema#double> , "0.218"^^<http://www.w3.org/2001/XMLSchema#double> , "0.071"^^<http://www.w3.org/2001/XMLSchema#double> , "0.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.47"^^<http://www.w3.org/2001/XMLSchema#double> , "0.383"^^<http://www.w3.org/2001/XMLSchema#double> , "0.216"^^<http://www.w3.org/2001/XMLSchema#double> , "0.122"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.578"^^<http://www.w3.org/2001/XMLSchema#double> , "0.576"^^<http://www.w3.org/2001/XMLSchema#double> , "0.295"^^<http://www.w3.org/2001/XMLSchema#double> , "0.268"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> , "0.067"^^<http://www.w3.org/2001/XMLSchema#double> , "0.26"^^<http://www.w3.org/2001/XMLSchema#double> , "0.189"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.074"^^<http://www.w3.org/2001/XMLSchema#double> , "0.281"^^<http://www.w3.org/2001/XMLSchema#double> , "0.139"^^<http://www.w3.org/2001/XMLSchema#double> , "0.367"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/VNM> .
+
+<http://www.kdeproject.owl/ict/Viet%20Nam>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/VNM> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Viet Nam" .
+
+<http://www.kdeproject.owl/ict/demo_MWI>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MWI> .
+
+<http://www.kdeproject.owl/ict/Lao%20PDR>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LAO> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Lao PDR" .
+
+<http://www.kdeproject.owl/ict/gender_STP>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/STP> .
+
+<http://www.kdeproject.owl/ict/GHA>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/SLE>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/EAP>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/VNM> , <http://www.kdeproject.owl/ict/TUV> , <http://www.kdeproject.owl/ict/TON> , <http://www.kdeproject.owl/ict/WSM> , <http://www.kdeproject.owl/ict/MNG> , <http://www.kdeproject.owl/ict/LAO> , <http://www.kdeproject.owl/ict/KIR> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TUV>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.26"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> , "0.198"^^<http://www.w3.org/2001/XMLSchema#double> , "0.097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.026"^^<http://www.w3.org/2001/XMLSchema#double> , "0.11"^^<http://www.w3.org/2001/XMLSchema#double> , "0.081"^^<http://www.w3.org/2001/XMLSchema#double> , "0.116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.486"^^<http://www.w3.org/2001/XMLSchema#double> , "0.395"^^<http://www.w3.org/2001/XMLSchema#double> , "0.323"^^<http://www.w3.org/2001/XMLSchema#double> , "0.349"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.371"^^<http://www.w3.org/2001/XMLSchema#double> , "0.368"^^<http://www.w3.org/2001/XMLSchema#double> , "0.36"^^<http://www.w3.org/2001/XMLSchema#double> , "0.464"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.414"^^<http://www.w3.org/2001/XMLSchema#double> , "0.242"^^<http://www.w3.org/2001/XMLSchema#double> , "0.105"^^<http://www.w3.org/2001/XMLSchema#double> , "0.302"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.129"^^<http://www.w3.org/2001/XMLSchema#double> , "0.276"^^<http://www.w3.org/2001/XMLSchema#double> , "0.221"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.365"^^<http://www.w3.org/2001/XMLSchema#double> , "0.267"^^<http://www.w3.org/2001/XMLSchema#double> , "0.105"^^<http://www.w3.org/2001/XMLSchema#double> , "0.145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.5"^^<http://www.w3.org/2001/XMLSchema#double> , "0.419"^^<http://www.w3.org/2001/XMLSchema#double> , "0.558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.209"^^<http://www.w3.org/2001/XMLSchema#double> , "0.282"^^<http://www.w3.org/2001/XMLSchema#double> , "0.065"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.421"^^<http://www.w3.org/2001/XMLSchema#double> , "0.314"^^<http://www.w3.org/2001/XMLSchema#double> , "0.339"^^<http://www.w3.org/2001/XMLSchema#double> , "0.376"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUV> .
+
+<http://www.kdeproject.owl/ict/demo_LSO>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LSO> .
+
+<http://www.kdeproject.owl/ict/ZWE>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Sao%20Tome%20and%20Principe>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/STP> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Sao Tome and Principe" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_WSM>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.123"^^<http://www.w3.org/2001/XMLSchema#double> , "0.155"^^<http://www.w3.org/2001/XMLSchema#double> , "0.304"^^<http://www.w3.org/2001/XMLSchema#double> , "0.316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.133"^^<http://www.w3.org/2001/XMLSchema#double> , "0.063"^^<http://www.w3.org/2001/XMLSchema#double> , "0.059"^^<http://www.w3.org/2001/XMLSchema#double> , "0.129"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.313"^^<http://www.w3.org/2001/XMLSchema#double> , "0.152"^^<http://www.w3.org/2001/XMLSchema#double> , "0.357"^^<http://www.w3.org/2001/XMLSchema#double> , "0.138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.292"^^<http://www.w3.org/2001/XMLSchema#double> , "0.128"^^<http://www.w3.org/2001/XMLSchema#double> , "0.352"^^<http://www.w3.org/2001/XMLSchema#double> , "0.123"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.234"^^<http://www.w3.org/2001/XMLSchema#double> , "0.118"^^<http://www.w3.org/2001/XMLSchema#double> , "0.281"^^<http://www.w3.org/2001/XMLSchema#double> , "0.083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.223"^^<http://www.w3.org/2001/XMLSchema#double> , "0.087"^^<http://www.w3.org/2001/XMLSchema#double> , "0.097"^^<http://www.w3.org/2001/XMLSchema#double> , "0.23"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.223"^^<http://www.w3.org/2001/XMLSchema#double> , "0.24"^^<http://www.w3.org/2001/XMLSchema#double> , "0.082"^^<http://www.w3.org/2001/XMLSchema#double> , "0.088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.354"^^<http://www.w3.org/2001/XMLSchema#double> , "0.413"^^<http://www.w3.org/2001/XMLSchema#double> , "0.19"^^<http://www.w3.org/2001/XMLSchema#double> , "0.153"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.226"^^<http://www.w3.org/2001/XMLSchema#double> , "0.065"^^<http://www.w3.org/2001/XMLSchema#double> , "0.199"^^<http://www.w3.org/2001/XMLSchema#double> , "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.207"^^<http://www.w3.org/2001/XMLSchema#double> , "0.082"^^<http://www.w3.org/2001/XMLSchema#double> , "0.11"^^<http://www.w3.org/2001/XMLSchema#double> , "0.257"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/WSM> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_LAO>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> , "0.136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.154"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.161"^^<http://www.w3.org/2001/XMLSchema#double> , "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> , "0.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.219"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.115"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LAO> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_CUB>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.076"^^<http://www.w3.org/2001/XMLSchema#double> , "0.115"^^<http://www.w3.org/2001/XMLSchema#double> , "0.201"^^<http://www.w3.org/2001/XMLSchema#double> , "0.167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.073"^^<http://www.w3.org/2001/XMLSchema#double> , "0.026"^^<http://www.w3.org/2001/XMLSchema#double> , "0.047"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.353"^^<http://www.w3.org/2001/XMLSchema#double> , "0.189"^^<http://www.w3.org/2001/XMLSchema#double> , "0.54"^^<http://www.w3.org/2001/XMLSchema#double> , "0.463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.592"^^<http://www.w3.org/2001/XMLSchema#double> , "0.208"^^<http://www.w3.org/2001/XMLSchema#double> , "0.56"^^<http://www.w3.org/2001/XMLSchema#double> , "0.386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.329"^^<http://www.w3.org/2001/XMLSchema#double> , "0.181"^^<http://www.w3.org/2001/XMLSchema#double> , "0.072"^^<http://www.w3.org/2001/XMLSchema#double> , "0.227"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.293"^^<http://www.w3.org/2001/XMLSchema#double> , "0.093"^^<http://www.w3.org/2001/XMLSchema#double> , "0.212"^^<http://www.w3.org/2001/XMLSchema#double> , "0.154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.076"^^<http://www.w3.org/2001/XMLSchema#double> , "0.046"^^<http://www.w3.org/2001/XMLSchema#double> , "0.183"^^<http://www.w3.org/2001/XMLSchema#double> , "0.139"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.425"^^<http://www.w3.org/2001/XMLSchema#double> , "0.663"^^<http://www.w3.org/2001/XMLSchema#double> , "0.247"^^<http://www.w3.org/2001/XMLSchema#double> , "0.601"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> , "0.207"^^<http://www.w3.org/2001/XMLSchema#double> , "0.14"^^<http://www.w3.org/2001/XMLSchema#double> , "0.271"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.352"^^<http://www.w3.org/2001/XMLSchema#double> , "0.206"^^<http://www.w3.org/2001/XMLSchema#double> , "0.497"^^<http://www.w3.org/2001/XMLSchema#double> , "0.509"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CUB> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_NPL>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.007"^^<http://www.w3.org/2001/XMLSchema#double> , "0.131"^^<http://www.w3.org/2001/XMLSchema#double> , "0.071"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> , "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.022"^^<http://www.w3.org/2001/XMLSchema#double> , "0.205"^^<http://www.w3.org/2001/XMLSchema#double> , "0.102"^^<http://www.w3.org/2001/XMLSchema#double> , "0.066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.112"^^<http://www.w3.org/2001/XMLSchema#double> , "0.24"^^<http://www.w3.org/2001/XMLSchema#double> , "0.026"^^<http://www.w3.org/2001/XMLSchema#double> , "0.097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.081"^^<http://www.w3.org/2001/XMLSchema#double> , "0.164"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> , "0.035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.095"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> , "0.014"^^<http://www.w3.org/2001/XMLSchema#double> , "0.041"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.145"^^<http://www.w3.org/2001/XMLSchema#double> , "0.068"^^<http://www.w3.org/2001/XMLSchema#double> , "0.053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.25"^^<http://www.w3.org/2001/XMLSchema#double> , "0.029"^^<http://www.w3.org/2001/XMLSchema#double> , "0.099"^^<http://www.w3.org/2001/XMLSchema#double> , "0.134"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.088"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> , "0.203"^^<http://www.w3.org/2001/XMLSchema#double> , "0.07"^^<http://www.w3.org/2001/XMLSchema#double> , "0.082"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/NPL> .
+
+<http://www.kdeproject.owl/ict/gender_COD>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/COD> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TGO>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.02"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.028"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.074"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TGO> .
+
+<http://www.kdeproject.owl/ict/demo_PAK>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PAK> .
+
+<http://www.kdeproject.owl/ict/gender_TUN>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUN> .
+
+<http://www.kdeproject.owl/ict/Algeria>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/DZA> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Algeria" .
+
+<http://www.kdeproject.owl/ict/gender_VNM>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/VNM> .
+
+<http://www.kdeproject.owl/ict/demo_KIR>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/KIR> .
+
+<http://www.kdeproject.owl/ict/Gambia>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GMB> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Gambia" .
+
+<http://www.kdeproject.owl/ict/demo_TCD>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCD> .
+
+<http://www.kdeproject.owl/ict/gender_TUV>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUV> .
+
+<http://www.kdeproject.owl/ict/Cuba>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CUB> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Cuba" .
+
+<http://www.kdeproject.owl/ict/Lesotho>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LSO> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Lesotho" .
+
+<http://www.kdeproject.owl/ict/demo_GMB>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GMB> .
+
+<http://www.kdeproject.owl/ict/gender_LAO>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/LAO> .
+
+<http://www.kdeproject.owl/ict/gender_WSM>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/WSM> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_TON>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.355"^^<http://www.w3.org/2001/XMLSchema#double> , "0.099"^^<http://www.w3.org/2001/XMLSchema#double> , "0.094"^^<http://www.w3.org/2001/XMLSchema#double> , "0.321"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.162"^^<http://www.w3.org/2001/XMLSchema#double> , "0.018"^^<http://www.w3.org/2001/XMLSchema#double> , "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.159"^^<http://www.w3.org/2001/XMLSchema#double> , "0.397"^^<http://www.w3.org/2001/XMLSchema#double> , "0.14"^^<http://www.w3.org/2001/XMLSchema#double> , "0.424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.148"^^<http://www.w3.org/2001/XMLSchema#double> , "0.199"^^<http://www.w3.org/2001/XMLSchema#double> , "0.396"^^<http://www.w3.org/2001/XMLSchema#double> , "0.354"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.166"^^<http://www.w3.org/2001/XMLSchema#double> , "0.37"^^<http://www.w3.org/2001/XMLSchema#double> , "0.205"^^<http://www.w3.org/2001/XMLSchema#double> , "0.366"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.127"^^<http://www.w3.org/2001/XMLSchema#double> , "0.03"^^<http://www.w3.org/2001/XMLSchema#double> , "0.125"^^<http://www.w3.org/2001/XMLSchema#double> , "0.046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.163"^^<http://www.w3.org/2001/XMLSchema#double> , "0.034"^^<http://www.w3.org/2001/XMLSchema#double> , "0.061"^^<http://www.w3.org/2001/XMLSchema#double> , "0.19"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.518"^^<http://www.w3.org/2001/XMLSchema#double> , "0.254"^^<http://www.w3.org/2001/XMLSchema#double> , "0.517"^^<http://www.w3.org/2001/XMLSchema#double> , "0.246"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.304"^^<http://www.w3.org/2001/XMLSchema#double> , "0.288"^^<http://www.w3.org/2001/XMLSchema#double> , "0.136"^^<http://www.w3.org/2001/XMLSchema#double> , "0.111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.322"^^<http://www.w3.org/2001/XMLSchema#double> , "0.385"^^<http://www.w3.org/2001/XMLSchema#double> , "0.159"^^<http://www.w3.org/2001/XMLSchema#double> , "0.184"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TON> .
+
+<http://www.kdeproject.owl/ict/gender_CUB>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CUB> .
+
+<http://www.kdeproject.owl/ict/gender_NPL>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/NPL> .
+
+<http://www.kdeproject.owl/ict/gender_TGO>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TGO> .
+
+<http://www.kdeproject.owl/ict/CAF>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Chad>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TCD> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Chad" .
+
+<http://www.kdeproject.owl/ict/demo_DZA>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/DZA> .
+
+<http://www.kdeproject.owl/ict/MDG>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/EECA>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TKM> .
+
+<http://www.kdeproject.owl/ict/IRQ>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/LAC>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SUR> , <http://www.kdeproject.owl/ict/CUB> , <http://www.kdeproject.owl/ict/ARG> .
+
+<http://www.kdeproject.owl/ict/SUR>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/gender_TON>
+        a       <http://www.kdeproject.owl/ict/ICT_Gender> ;
+        <http://www.kdeproject.owl/ict/genderResidence>
+                "Male" , "Female" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TON> .
+
+<http://www.kdeproject.owl/ict/GNB>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Bangladesh>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/BGD> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Bangladesh" .
+
+<http://www.kdeproject.owl/ict/BGD>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/ARG>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Tonga>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TON> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Tonga" .
+
+<http://www.kdeproject.owl/ict/TCA>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/MNG>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_GHA>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.037"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.072"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.076"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.06"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> , "0.045"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.049"^^<http://www.w3.org/2001/XMLSchema#double> , "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/GHA> .
+
+<http://www.kdeproject.owl/ict/Iraq>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/IRQ> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Iraq" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_SLE>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.024"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.025"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> , "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.037"^^<http://www.w3.org/2001/XMLSchema#double> , "0.001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> , "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/SLE> .
+
+<http://www.kdeproject.owl/ict/TKM>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/MWI>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Madagascar>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MDG> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Madagascar" .
+
+<http://www.kdeproject.owl/ict/TaskPerformed_ZWE>
+        a       <http://www.kdeproject.owl/ict/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ict/ARTHIMETIC_IN_SPREADSHEET>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> , "0.07"^^<http://www.w3.org/2001/XMLSchema#double> , "0.01"^^<http://www.w3.org/2001/XMLSchema#double> , "0.188"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> , "0.051"^^<http://www.w3.org/2001/XMLSchema#double> , "0.009"^^<http://www.w3.org/2001/XMLSchema#double> , "0.005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COPY_PASTE_DOC>
+                "0.048"^^<http://www.w3.org/2001/XMLSchema#double> , "0.028"^^<http://www.w3.org/2001/XMLSchema#double> , "0.428"^^<http://www.w3.org/2001/XMLSchema#double> , "0.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/COP_FOLD_FILE>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> , "0.472"^^<http://www.w3.org/2001/XMLSchema#double> , "0.206"^^<http://www.w3.org/2001/XMLSchema#double> , "0.055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/EMAIL_WITH_ATTACHMENT>
+                "0.103"^^<http://www.w3.org/2001/XMLSchema#double> , "0.195"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_A_NEW_DEVICE>
+                "0.1"^^<http://www.w3.org/2001/XMLSchema#double> , "0.279"^^<http://www.w3.org/2001/XMLSchema#double> , "0.028"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/INSTALL_SOFTWARE>
+                "0.04"^^<http://www.w3.org/2001/XMLSchema#double> , "0.14"^^<http://www.w3.org/2001/XMLSchema#double> , "0.017"^^<http://www.w3.org/2001/XMLSchema#double> , "0.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PERFORM_ACTIVITES>
+                "0.091"^^<http://www.w3.org/2001/XMLSchema#double> , "0.295"^^<http://www.w3.org/2001/XMLSchema#double> , "0.533"^^<http://www.w3.org/2001/XMLSchema#double> , "0.054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/PRESENTATION_WITH_CONTENT>
+                "0.171"^^<http://www.w3.org/2001/XMLSchema#double> , "0.011"^^<http://www.w3.org/2001/XMLSchema#double> , "0.016"^^<http://www.w3.org/2001/XMLSchema#double> , "0.081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/TRANSFER_FILE>
+                "0.064"^^<http://www.w3.org/2001/XMLSchema#double> , "0.21"^^<http://www.w3.org/2001/XMLSchema#double> , "0.481"^^<http://www.w3.org/2001/XMLSchema#double> , "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/ZWE> .
+
+<http://www.kdeproject.owl/ict/Malawi>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MWI> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Malawi" .
+
+<http://www.kdeproject.owl/ict/WCA>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/CAF> , <http://www.kdeproject.owl/ict/GMB> , <http://www.kdeproject.owl/ict/GHA> , <http://www.kdeproject.owl/ict/TGO> , <http://www.kdeproject.owl/ict/STP> , <http://www.kdeproject.owl/ict/GNB> , <http://www.kdeproject.owl/ict/COD> , <http://www.kdeproject.owl/ict/TCD> , <http://www.kdeproject.owl/ict/SLE> .
+
+<http://www.kdeproject.owl/ict/MENA>
+        a       <http://www.kdeproject.owl/ict/Region> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/TUN> , <http://www.kdeproject.owl/ict/PSE> , <http://www.kdeproject.owl/ict/IRQ> , <http://www.kdeproject.owl/ict/DZA> .
+
+<http://www.kdeproject.owl/ict/demo_PSE>
+        a       <http://www.kdeproject.owl/ict/ICT_Demography> ;
+        <http://www.kdeproject.owl/ict/demoResidence>
+                "Urban" , "Rural" ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/PSE> .
+
+<http://www.kdeproject.owl/ict/LSO>
+        a       <http://www.kdeproject.owl/ict/ISO> .
+
+<http://www.kdeproject.owl/ict/Mongolia>
+        a       <http://www.kdeproject.owl/ict/Country> ;
+        <http://www.kdeproject.owl/ict/hasISOCode>
+                <http://www.kdeproject.owl/ict/MNG> ;
+        <http://www.kdeproject.owl/ict/name>
+                "Mongolia" .
