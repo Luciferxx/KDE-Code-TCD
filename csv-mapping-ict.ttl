@@ -9,7 +9,30 @@
                rr:template "http://www.kdeproject.owl/ict/{ISO}" ;
                rr:class ourontology:ISO ;
          ] ;
-
+        #  rr:predicateObjectMap [
+        #        rr:predicate ourontology:representsCountry ;
+        #        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ] ;
+        #  ] ;
+        rr:predicateObjectMap [
+               rr:predicate ourontology:representsRegion;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}" ] ;
+         ] ;
+         .
+<#RegionTriplesMap>
+         a rr:TriplesMap ; 
+        rr:logicalTable [ rr:tableName "ict_area" ] ;
+        rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/ict/{REGION}" ;
+               rr:class ourontology:Region ;
+         ] ;
+            rr:predicateObjectMap [
+        rr:predicate ourontology:hasCountry;
+        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ] ;
+    ] ;
+        rr:predicateObjectMap [
+               rr:predicate ourontology:regionName;
+               rr:objectMap [ rr:column "REGION" ] ;
+         ] 
          .
 <#CountryTriplesMap>
          a rr:TriplesMap ; 
@@ -19,87 +42,56 @@
                rr:class ourontology:Country ;
          ] ;
          rr:predicateObjectMap [
-               rr:predicate ourontology:name;
+               rr:predicate ourontology:countryName;
                rr:objectMap [rr:column "COUNTRY"];  
-         ] ; 
-         rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#IctBaseTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-    ]
-         .
-<#RegionTriplesMap>
-         a rr:TriplesMap ; 
-         rr:logicalTable [ rr:tableName "ict_area" ] ;
-         rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{REGION}" ;
-               rr:class ourontology:Region ;
          ] ;
+
+        # rr:predicateObjectMap [
+        #        rr:predicate ourontology:hasRegion;
+        #        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}" ] ;
+        #  ]
          rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#IctBaseTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-    ]
+               rr:predicate ourontology:hasDemography;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}" ] ;
+         ] 
          .
 <#DemoGraphyTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/demo_{ISO}" ;
+               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}" ;
                rr:class ourontology:ICT_Demography ;
          ] ;
         rr:predicateObjectMap [
-               rr:predicate ourontology:demoResidence;
+               rr:predicate ourontology:demographyName;
                rr:objectMap [rr:column "AREA"];  
          ] ; 
          rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#IctBaseTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-    ]
+               rr:predicate ourontology:accomomdatesPeopleByGender;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}" ] ;
+         ] 
          .
 <#GenderTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/gender_{ISO}" ;
+               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}" ;
                rr:class ourontology:ICT_Gender ;
          ] ;
         rr:predicateObjectMap [
-               rr:predicate ourontology:genderResidence;
+               rr:predicate ourontology:genderName;
                rr:objectMap [rr:column "SEX"];  
          ] ; 
-         rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#IctBaseTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-    ]
+        rr:predicateObjectMap [
+               rr:predicate ourontology:performsTask;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}/Task" ] ;
+         ]    
          .
 <#TaskPerformedTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/TaskPerformed_{ISO}" ;
+               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}/Task" ;
                rr:class ourontology:ICT_TaskPerformed ;
          ] ;
          #Copied or moved a file or folder
@@ -175,14 +167,4 @@
                rr:datatype xsd:double;
                ];  
          ] ; 
-         rr:predicateObjectMap [
-            rr:predicate ourontology:hasISOCode;
-            rr:objectMap [
-            rr:parentTriplesMap <#IctBaseTriplesMap>;
-            rr:joinCondition [
-                rr:child "ISO";
-                rr:parent "ISO";
-            ];
-        ];
-    ]
          .
