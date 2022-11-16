@@ -1,44 +1,45 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix ourontology: <http://www.kdeproject.owl/ict/> .
+@prefix ourontology: <http://www.kdeproject.owl/> .
 
 <#IctBaseTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{ISO}" ;
+               rr:template "http://www.kdeproject.owl/{ISO}" ;
                rr:class ourontology:ISO ;
          ] ;
-        #  rr:predicateObjectMap [
-        #        rr:predicate ourontology:representsCountry ;
-        #        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ] ;
-        #  ] ;
-        rr:predicateObjectMap [
-               rr:predicate ourontology:representsRegion;
-               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}" ] ;
-         ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:representsCountry ;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{COUNTRY}" ] ;
+         ]
          .
 <#RegionTriplesMap>
          a rr:TriplesMap ; 
         rr:logicalTable [ rr:tableName "ict_area" ] ;
         rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{REGION}" ;
-               rr:class ourontology:Region ;
+               rr:template "http://www.kdeproject.owl/{UNICEF_REGION}" ;
+               rr:class ourontology:UnicefRegion ;
          ] ;
             rr:predicateObjectMap [
         rr:predicate ourontology:hasCountry;
-        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ] ;
+        rr:objectMap [ rr:template "http://www.kdeproject.owl/{COUNTRY}" ] ;
     ] ;
         rr:predicateObjectMap [
-               rr:predicate ourontology:regionName;
-               rr:objectMap [ rr:column "REGION" ] ;
-         ] 
+               rr:predicate ourontology:unicefRegionName;
+               rr:objectMap [ rr:column "UNICEF_REGION" ] ;
+         ];
+     rr:predicateObjectMap [
+               rr:predicate ourontology:hasDemography;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{COUNTRY}/{UNICEF_REGION}/{AREA}" ] ;
+         ]  
          .
+
 <#CountryTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{COUNTRY}" ;
+               rr:template "http://www.kdeproject.owl/{COUNTRY}" ;
                rr:class ourontology:Country ;
          ] ;
          rr:predicateObjectMap [
@@ -48,50 +49,44 @@
 
         # rr:predicateObjectMap [
         #        rr:predicate ourontology:hasRegion;
-        #        rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}" ] ;
+        #        rr:objectMap [ rr:template "http://www.kdeproject.owl/{REGION}" ] ;
         #  ]
-         rr:predicateObjectMap [
-               rr:predicate ourontology:hasDemography;
-               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}" ] ;
-         ] 
+
          .
 <#DemoGraphyTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}" ;
+               rr:template "http://www.kdeproject.owl/{COUNTRY}/{UNICEF_REGION}/{AREA}" ;
                rr:class ourontology:ICT_Demography ;
          ] ;
         rr:predicateObjectMap [
                rr:predicate ourontology:demographyName;
                rr:objectMap [rr:column "AREA"];  
          ] ; 
-         rr:predicateObjectMap [
-               rr:predicate ourontology:accomomdatesPeopleByGender;
-               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}" ] ;
-         ] 
+      #    rr:predicateObjectMap [
+      #          rr:predicate ourontology:accomomdatesPeopleByGender;
+      #          rr:objectMap [ rr:template "http://www.kdeproject.owl/{UNICEF_REGION}/{COUNTRY}/{AREA}/{SEX}" ] ;
+      #    ] 
          .
 <#GenderTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}" ;
+               rr:template "http://www.kdeproject.owl/{COUNTRY}/{UNICEF_REGION}/{SEX}" ;
                rr:class ourontology:ICT_Gender ;
          ] ;
         rr:predicateObjectMap [
                rr:predicate ourontology:genderName;
                rr:objectMap [rr:column "SEX"];  
          ] ; 
-        rr:predicateObjectMap [
-               rr:predicate ourontology:performsTask;
-               rr:objectMap [ rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}/Task" ] ;
-         ]    
+
          .
 <#TaskPerformedTriplesMap>
          a rr:TriplesMap ; 
          rr:logicalTable [ rr:tableName "ict_area" ] ;
          rr:subjectMap [
-               rr:template "http://www.kdeproject.owl/ict/{REGION}/{COUNTRY}/{AREA}/{SEX}/Task" ;
+               rr:template "http://www.kdeproject.owl/ICT_Task_{ISO}" ;
                rr:class ourontology:ICT_TaskPerformed ;
          ] ;
          #Copied or moved a file or folder
@@ -167,4 +162,24 @@
                rr:datatype xsd:double;
                ];  
          ] ; 
+     rr:predicateObjectMap [
+            rr:predicate ourontology:forISO;
+            rr:objectMap [
+            rr:parentTriplesMap <#DemoGraphyTriplesMap>;
+            rr:joinCondition [
+                rr:child "AREA";
+                rr:parent "AREA";
+            ];
+        ];
+    ];
+         rr:predicateObjectMap [
+            rr:predicate ourontology:forISO;
+            rr:objectMap [
+            rr:parentTriplesMap <#GenderTriplesMap>;
+            rr:joinCondition [
+                rr:child "SEX";
+                rr:parent "SEX";
+            ];
+        ];
+    ]
          .
