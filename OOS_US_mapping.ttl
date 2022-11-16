@@ -1,0 +1,183 @@
+#First structure in classes and properties
+#Second to add ontologies
+#Third is to join tables together
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix swpo: <http://sw-portal.deri.org/ontologies/xrtal#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ourontology: <http://www.kdeproject.owl/> .
+
+
+<#Upper_SecondaryTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{ISO}" ;
+               rr:class ourontology:ISO ;
+         ] ;
+
+         rr:predicateObjectMap [
+               rr:predicate ourontology:representsCountry ;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{COUNTRY}" ] ;
+         ] ;
+
+         rr:predicateObjectMap [
+               rr:predicate foaf:DevelopmentRegions;
+               rr:objectMap [ rr:column "DEVELOPMENTREGIONS" ] ;
+         ] ;
+         .
+
+<#CountryTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{COUNTRY}" ;
+               rr:class ourontology:Country ;
+         ] ;
+      
+            rr:predicateObjectMap [
+               rr:predicate ourontology:countryName;
+               rr:objectMap [ rr:column "COUNTRY" ] ;
+         ] ;
+
+          rr:predicateObjectMap [
+          rr:predicate ourontology:hasSubRegion;
+          rr:objectMap [ rr:template "http://www.kdeproject.owl/{SUBREGION}" ];
+    ]
+    .
+
+<#SubRegionTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{SUBREGION}" ;
+               rr:class ourontology:SubRegion ;
+         ] ;
+       rr:predicateObjectMap [
+               rr:predicate ourontology:subRegionName;
+               rr:objectMap [ rr:column "SUBREGION" ] ;
+         ] ;
+      rr:predicateObjectMap [
+               rr:predicate ourontology:hasRegion;
+               rr:objectMap [ rr:template "http://www.kdeproject.owl/{REGION}" ] ;
+         ] 
+         .
+
+<#RegionTriplesMap>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+         rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/{REGION}" ;
+               rr:class ourontology:Region ;
+         ] ;
+   
+      rr:predicateObjectMap [
+               rr:predicate ourontology:regionName;
+               rr:objectMap [ rr:column "REGION" ] ;
+         ] 
+         .
+
+<#Upper_SecondaryGenderRates>   
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+              rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/OOS_US_Gender{ISO}" ;
+               rr:class ourontology:OOS_US_GenderRates ;
+         ] ;               
+         rr:predicateObjectMap [
+               rr:predicate ourontology:femalepercent;
+               rr:objectMap [ rr:column "FEMALE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+               rr:predicate ourontology:malepercent;
+               rr:objectMap [ rr:column "MALE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+            rr:predicate ourontology:forISO;
+            rr:objectMap [
+            rr:parentTriplesMap <#Upper_SecondaryTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+    .
+         
+
+<#Upper_SecondaryDemography>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+              rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/OOS_US_Demography{ISO}" ;
+               rr:class ourontology:OOS_US_Demography   ;
+         ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:ruralResidence;
+               rr:objectMap [ rr:column "RURAL";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+         rr:predicateObjectMap [
+               rr:predicate ourontology:urbanResidence;
+               rr:objectMap [ rr:column "URBAN";
+               rr:datatype xsd:integer; ] ;
+         ] ;          
+         rr:predicateObjectMap [
+            rr:predicate ourontology:forISO;
+            rr:objectMap [
+            rr:parentTriplesMap <#Upper_SecondaryTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+      .
+
+<#Upper_SecondaryWealthQuinitile>
+         a rr:TriplesMap ; 
+         rr:logicalTable [ rr:tableName "OutOfSchoolRates_UpperSecondary" ] ;
+              rr:subjectMap [
+               rr:template "http://www.kdeproject.owl/OOS_US_WealthQuintile{ISO}" ;
+               rr:class ourontology:OOS_US_WealthQuintile ;
+         ] ;
+         rr:predicateObjectMap [
+               rr:predicate ourontology:poorestquintile ;
+               rr:objectMap [ rr:column "POOREST";
+               rr:datatype xsd:integer;
+                ] ;
+         ] ;
+                 rr:predicateObjectMap [
+               rr:predicate ourontology:secondquintile ;
+               rr:objectMap [ rr:column "SECOND";
+               rr:datatype xsd:integer; ] ;
+         ] ;         rr:predicateObjectMap [
+               rr:predicate ourontology:middlequintile ;
+               rr:objectMap [ rr:column "MIDDLE";
+               rr:datatype xsd:integer; ] ;
+         ] ; 
+                 rr:predicateObjectMap [
+               rr:predicate ourontology:fourthquintile ;
+               rr:objectMap [ rr:column "FOURTH";
+               rr:datatype xsd:integer; ] ;
+         ] ;
+                 rr:predicateObjectMap [
+               rr:predicate ourontology:richerstquintile ;
+               rr:objectMap [ rr:column "RICHEST";
+               rr:datatype xsd:integer; ] ;
+         ] ;
+         
+            rr:predicateObjectMap [
+            rr:predicate ourontology:forISO;
+            rr:objectMap [
+            rr:parentTriplesMap <#Upper_SecondaryTriplesMap>;
+            rr:joinCondition [
+                rr:child "ISO";
+                rr:parent "ISO";
+            ];
+        ];
+    ]
+.

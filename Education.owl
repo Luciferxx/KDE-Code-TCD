@@ -48,6 +48,32 @@
     
 
 
+    <!-- http://www.kdeproject.owl/forISO -->
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/forISO">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_WealthQuintile"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/ISO"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.kdeproject.owl/hasISOCode -->
 
     <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasISOCode">
@@ -62,6 +88,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasRegion">
         <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/SubRegion"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/Region"/>
     </owl:ObjectProperty>
     
 
@@ -70,6 +98,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasSubRegion">
         <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/Country"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/SubRegion"/>
     </owl:ObjectProperty>
     
 
@@ -104,6 +134,42 @@
     
 
 
+    <!-- http://www.kdeproject.owl/CR_LS_Demography -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_LS_GenderRates -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_LS_WealthQuintile -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_Demography -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_GenderRates -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_WealthQuintile -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_WealthQuintile"/>
+    
+
+
     <!-- http://www.kdeproject.owl/Country -->
 
     <owl:Class rdf:about="http://www.kdeproject.owl/Country">
@@ -115,6 +181,48 @@
     <!-- http://www.kdeproject.owl/ISO -->
 
     <owl:Class rdf:about="http://www.kdeproject.owl/ISO"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_Demography -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_GenderRates -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_WealthQuintile -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_Demography -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_GenderRates -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_WealthQuintile -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/Region -->
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/Region"/>
     
 
 

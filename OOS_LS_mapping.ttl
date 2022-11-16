@@ -4,7 +4,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dbpedia: <http://dbpedia.org/ontology/> .
-@prefix swpo: <http://sw-portal.deri.org/ontologies/swportal#> .
+@prefix swpo: <http://sw-portal.deri.org/ontologies/xrtal#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ourontology: <http://www.kdeproject.owl/> .
 
@@ -113,7 +113,7 @@
          rr:logicalTable [ rr:tableName "OutOfSchoolRates_LowerSecondary" ] ;
               rr:subjectMap [
                rr:template "http://www.kdeproject.owl/OOS_LS_Demography{ISO}" ;
-               rr:class ourontology:OOS_LS_Demography ;
+               rr:class ourontology:OOS_LS_Demography   ;
          ] ;
          rr:predicateObjectMap [
                rr:predicate ourontology:ruralResidence;
