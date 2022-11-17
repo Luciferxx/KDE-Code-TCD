@@ -200,6 +200,49 @@ SELECT (?name as ?CountryName) (?Sum as ?AttachmentPercentage) ?totalCompletionR
     }
     
 }
+Q9) Find the average completion and out of school rates for countries in all the wealth quintiles(Poorest to richest)?.  What countries has their completion rate and out of school rates above the threshold (avg. values) ?
+PREFIX oo:<http://www.kdeproject.owl/> 
+SELECT DISTINCT ?countryCM  ?countryOOS  WHERE{
+{select ?countryCM where { 
+    ?w_q a oo:CR_LS_WealthQuintile .
+    ?w_q oo:poorestquintile ?poor_cm .
+    ?w_q  oo:forISO ?isoCM .
+    ?isoCM oo:representsCountry ?countryCM .
+    ?w_qOOS a oo:OOS_LS_WealthQuintile .
+    ?w_qOOS oo:poorestquintile ?poor_oos .
+    ?w_qOOS  oo:forISO ?isoOOS .
+    ?isoOOS oo:representsCountry  ?countryOOS .
+    FILTER(?poor_cm > ?POOR)    	 
+    {
+        SELECT (AVG(?poorCM) as ?POOR) (AVG(?poorOOS) as ?POOR_OOS ) where {
+            ?wealth_quintile a oo:CR_LS_WealthQuintile .
+            ?wealth_quintile oo:poorestquintile ?poorCM .
+            ?wealth_quintile  oo:forISO ?iso .
+            ?wealth_quintileOOS a oo:OOS_LS_WealthQuintile .
+            ?wealth_quintileOOS oo:poorestquintile ?poorOOS .
+        } 
+    }
+} 
+}
+
+UNION
+	{
+        select ?countryOOS  where { 
+            ?w_qOOS a oo:OOS_LS_WealthQuintile .
+            ?w_qOOS oo:poorestquintile ?poor_oos .
+            ?w_qOOS  oo:forISO ?isoOOS .
+            ?isoOOS oo:representsCountry  ?countryOOS .
+            FILTER(?poor_oos > ?POOR_OOS)    	 
+            {
+                SELECT (AVG(?poorOOS) as ?POOR_OOS ) where {
+                    ?wealth_quintileOOS a oo:OOS_LS_WealthQuintile .
+                    ?wealth_quintileOOS oo:poorestquintile ?poorOOS .
+                } 
+            }
+        } 
+	}
+} 
+
 
 Q10)  The country with the maximum completion rate for females in upper secondary belongs to which region? What are the corresponding out-of-school rates of females for this country?
 PREFIX oo: <http://www.kdeproject.owl/> 
