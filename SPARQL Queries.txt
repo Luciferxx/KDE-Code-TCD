@@ -1,19 +1,121 @@
-Q1) Compare the completion Rate and Out of School Rates for females in INDIA
+Q1) How does the ratio of Out of school and completion rates differ based on More developed and less developed countries for students in upper secondary schools ?
 
---- PREFIX oo: <http://www.kdeproject.owl/> 
-    select ?outOfSchoolRate ?completionRate  where { 
-        ?s1 a oo:CR_LS_GenderRates.
-        ?s2 a oo:OOS_LS_GenderRates.
-        ?s1 oo:femalepercent ?completionRate.
-        ?s2 oo:femalepercent ?outOfSchoolRate.
+---   
+    PREFIX oo: <http://www.kdeproject.owl/>  
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+
+    select ?ratio ?devRegion where { 
+        ?s1 a oo:CR_US_GenderRates.
+        ?s2 a oo:OOS_US_GenderRates.
+        ?s1 oo:malepercent ?completionRate.
+        ?s2 oo:malepercent ?outOfSchoolRate.
         ?s1 oo:forISO ?iso.
         ?s2 oo:forISO ?iso.
-        ?iso oo:name "India".
-
-        
+        ?iso foaf:DevelopmentRegions ?devRegion
+        BIND ((?completionRate/?outOfSchoolRate) AS ?ratio)
+       
     }
+    ORDER BY(?devRegion)   
+
+Q2) Which country has the highest completion rate and which has the highest out of school rates for females in lower secondary ? Do they both belong to the same development regions or different?
+
+--- 
+
+       
+PREFIX oo: <http://www.kdeproject.owl/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+
+SELECT ?country  ?devRegion ?femalecompletionRate ?femaleoutOfSchoolRate
+WHERE  { {
+  ?s oo:femalepercent ?femalecompletionRate .
+  ?s oo:forISO ?iso.
+  ?iso oo:representsCountry ?country.
+  ?iso foaf:DevelopmentRegions ?devRegion
+            
+       
+  FILTER EXISTS {
+{ SELECT (MAX (?completionRate) AS ?MaxcompletionRate){
+     ?s1 a oo:CR_LS_GenderRates.
+     ?s1 oo:femalepercent ?completionRate.   
+       }
+     }
+     FILTER ( ?femalecompletionRate = ?MaxcompletionRate )
+  }
+
+ } UNION  {
+   ?s oo:femalepercent ?femaleoutOfSchoolRate .
+  ?s oo:forISO ?iso.
+  ?iso oo:representsCountry ?country.
+  ?iso foaf:DevelopmentRegions ?devRegion
+  FILTER EXISTS {
+{ SELECT (MAX (?outOfSchoolRate) AS ?MaxoutOfSchoolRate){
+     ?s2 a oo:OOS_LS_GenderRates.
+     ?s2 oo:femalepercent ?outOfSchoolRate.   
+       }
+     }
+     FILTER ( ?femaleoutOfSchoolRate = ?MaxoutOfSchoolRate )
+  }
+}
+ } 
 
 
+Q3) What percentage of females belonging to least developed regions were able to perform the task of copying or moving a file? 
+Group the results based on Unicef Regions.
+
+----
+      PREFIX oo: <http://www.kdeproject.owl/>  
+      PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+
+      select  ?unicefRegion (SUM(?value) AS ?SumOfTaskPerformedPercentagePerUnicefRegion) where { 
+      ?iso foaf:DevelopmentRegions "Least Developed".
+      ?iso oo:representsCountry ?country.
+      ?country oo:countryName ?name.
+      ?country oo:hasUnicefRegion ?unicefRegion.
+      ?unicefRegion oo:forGender ?gender.
+      ?gender oo:genderName "Female".
+      ?gender oo:performsTask ?taskPerformed.
+      ?taskPerformed oo:COP_FOLD_FILE ?value
+
+      }
+      GROUP BY(?unicefRegion)
+
+Q4) What is the corelation of completionRates for Upper Secondary students with the student's area of residence(Rural/Urban)?
+
+----
+      PREFIX oo: <http://www.kdeproject.owl/>  
+      PREFIX foaf: <http://xmlns.com/foaf/0.1/>  
+
+      select  ?countryName ?ruralRates ?urbanRates where { 
+      ?demography a oo:CR_US_Demography.
+      ?demography oo:forISO ?iso  .
+      ?iso oo:representsCountry ?country.
+      ?country oo:countryName ?countryName.
+      ?demography oo:ruralResidence ?ruralRates.
+      ?demography oo:urbanResidence ?urbanRates.  
+}
+
+
+ Q5) How does the Upper Secondary out-of-school rates of males in Indonesia compare with their completion rates ?
+
+ --- 
+    PREFIX oo: <http://www.kdeproject.owl/> 
+
+select ?maleCompletionRate ?MaleOutOfSchoolRate  where { 
+    ?s1 a oo:CR_US_GenderRates.
+    ?s2 a oo:OOS_US_GenderRates.
+    ?s1 oo:malepercent ?maleCompletionRate.
+    ?s2 oo:malepercent ?MaleOutOfSchoolRate.
+    ?s1 oo:forISO ?iso.
+    ?s2 oo:forISO ?iso.
+    ?iso oo:representsCountry oo:Indonesia    
+}
+
+
+
+// Test Query
+    |
+    |
+   \|/
 PREFIX oo: <http://www.kdeproject.owl/> 
 
 select (MIN (?completionRate) AS ?MIN) (MAX (?completionRate) AS ?MAX)   where { 
