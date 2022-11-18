@@ -1,4 +1,4 @@
-Q1) How does the ratio of Out of school and completion rates differ based on More developed and less developed countries for students in upper secondary schools ?
+Q1) How does the ratio of Out of school and completion rates differ based on More developed and less developed countries for males in upper secondary schools ?
 
 ---   
     PREFIX oo: <http://www.kdeproject.owl/>  
@@ -79,20 +79,24 @@ Group the results based on Unicef Regions.
       }
       GROUP BY(?unicefRegion)
 
-Q4) What is the corelation of completionRates for Upper Secondary students with the student's area of residence(Rural/Urban)?
+Q4) What is the corelation of completionRates and out of School Rates for Upper Secondary students with the student's area of residence(Rural/Urban)?
 
 ----
       PREFIX oo: <http://www.kdeproject.owl/>  
-      PREFIX foaf: <http://xmlns.com/foaf/0.1/>  
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/>  
 
-      select  ?countryName ?ruralRates ?urbanRates where { 
-      ?demography a oo:CR_US_Demography.
-      ?demography oo:forISO ?iso  .
-      ?iso oo:representsCountry ?country.
-      ?country oo:countryName ?countryName.
-      ?demography oo:ruralResidence ?ruralRates.
-      ?demography oo:urbanResidence ?urbanRates.  
-}
+    select  ?countryName ?ruralCompletionRates ?urbanCompletionRates ?ruraloutOfSchoolRates ?urbanoutOfSchoolRates where { 
+     ?demography a oo:CR_US_Demography.
+     ?demography2 a oo:OOS_US_Demography.
+     ?demography oo:forISO ?iso  .
+     ?demography2 oo:forISO ?iso  .
+     ?iso oo:representsCountry ?country.
+     ?country oo:countryName ?countryName.
+     ?demography oo:ruralResidence ?ruralCompletionRates.
+     ?demography oo:urbanResidence ?urbanCompletionRates.  
+     ?demography2 oo:ruralResidence ?ruraloutOfSchoolRates.
+     ?demography2 oo:urbanResidence ?urbanoutOfSchoolRates.  
+    }
 
 
  Q5) How does the Upper Secondary out-of-school rates of males in Indonesia compare with their completion rates ?
