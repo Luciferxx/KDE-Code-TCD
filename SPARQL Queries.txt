@@ -200,7 +200,7 @@ SELECT (?name as ?CountryName) (?Sum as ?AttachmentPercentage) ?totalCompletionR
     }
     
 }
-Q9) Find the average completion and out of school rates for countries in all the wealth quintiles(Poorest to richest)?.  What countries has their completion rate and out of school rates above the threshold (avg. values) ?
+Q9) Find the average completion and out of school rates for countries in the poorest wealth quintile? What countries have their completion rate and out of school rates above the threshold (avg. values)?
 PREFIX oo:<http://www.kdeproject.owl/> 
 SELECT DISTINCT ?countryCM  ?countryOOS  WHERE{
 {select ?countryCM where { 
