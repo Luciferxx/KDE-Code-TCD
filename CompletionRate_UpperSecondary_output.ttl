@@ -19,17 +19,17 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
-<http://www.kdeproject.owl/Benin>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Benin" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/WCA> .
-
 <http://www.kdeproject.owl/Mauritania>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
                 "Mauritania" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Benin>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Benin" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/WCA> .
 
@@ -105,6 +105,13 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
 
+<http://www.kdeproject.owl/Egypt>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Egypt" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/MENA> .
+
 <http://www.kdeproject.owl/CR_US_GenderBRB>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -113,13 +120,6 @@
                 <http://www.kdeproject.owl/BRB> ;
         <http://www.kdeproject.owl/malepercent>
                 91 .
-
-<http://www.kdeproject.owl/Egypt>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Egypt" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/MENA> .
 
 <http://www.kdeproject.owl/WSM>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -146,6 +146,15 @@
         <http://www.kdeproject.owl/urbanResidence>
                 56 .
 
+<http://www.kdeproject.owl/CR_US_DemographyWSM>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/WSM> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                53 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                71 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileNPL>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -160,15 +169,6 @@
                 59 ;
         <http://www.kdeproject.owl/secondquintile>
                 14 .
-
-<http://www.kdeproject.owl/CR_US_DemographyWSM>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/WSM> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                53 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                71 .
 
 <http://www.kdeproject.owl/TCD>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -232,6 +232,13 @@
         <http://www.kdeproject.owl/urbanResidence>
                 15 .
 
+<http://www.kdeproject.owl/Turkmenistan>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Turkmenistan" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/EECA> .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileCOL>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -246,13 +253,6 @@
                 95 ;
         <http://www.kdeproject.owl/secondquintile>
                 64 .
-
-<http://www.kdeproject.owl/Turkmenistan>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Turkmenistan" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/EECA> .
 
 <http://www.kdeproject.owl/SRB>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -341,6 +341,13 @@
         <http://www.kdeproject.owl/malepercent>
                 18 .
 
+<http://www.kdeproject.owl/Samoa>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Samoa" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/EAP> .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileARM>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -356,15 +363,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 68 .
 
-<http://www.kdeproject.owl/CR_US_GenderHTI>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                16 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/HTI> ;
-        <http://www.kdeproject.owl/malepercent>
-                17 .
-
 <http://www.kdeproject.owl/CR_US_GenderGHA>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -374,12 +372,14 @@
         <http://www.kdeproject.owl/malepercent>
                 12 .
 
-<http://www.kdeproject.owl/Samoa>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Samoa" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/EAP> .
+<http://www.kdeproject.owl/CR_US_GenderHTI>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                16 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/HTI> ;
+        <http://www.kdeproject.owl/malepercent>
+                17 .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileUGA>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -405,21 +405,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 50 .
 
-<http://www.kdeproject.owl/CR_US_WealthQuintileSLV>
-        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SLV> ;
-        <http://www.kdeproject.owl/fourthquintile>
-                43 ;
-        <http://www.kdeproject.owl/middlequintile>
-                31 ;
-        <http://www.kdeproject.owl/poorestquintile>
-                9 ;
-        <http://www.kdeproject.owl/richerstquintile>
-                71 ;
-        <http://www.kdeproject.owl/secondquintile>
-                22 .
-
 <http://www.kdeproject.owl/SSD>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
@@ -441,6 +426,21 @@
                 94 ;
         <http://www.kdeproject.owl/secondquintile>
                 71 .
+
+<http://www.kdeproject.owl/CR_US_WealthQuintileSLV>
+        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SLV> ;
+        <http://www.kdeproject.owl/fourthquintile>
+                43 ;
+        <http://www.kdeproject.owl/middlequintile>
+                31 ;
+        <http://www.kdeproject.owl/poorestquintile>
+                9 ;
+        <http://www.kdeproject.owl/richerstquintile>
+                71 ;
+        <http://www.kdeproject.owl/secondquintile>
+                22 .
 
 <http://www.kdeproject.owl/CR_US_GenderBGD>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -521,6 +521,13 @@
         <http://www.kdeproject.owl/urbanResidence>
                 73 .
 
+<http://www.kdeproject.owl/Uruguay>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Uruguay" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/LAC> .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileTZA>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -559,13 +566,6 @@
                 <http://www.kdeproject.owl/GIN> ;
         <http://www.kdeproject.owl/malepercent>
                 22 .
-
-<http://www.kdeproject.owl/Uruguay>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Uruguay" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/LAC> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileZMB>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -679,24 +679,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 82 .
 
-<http://www.kdeproject.owl/CR_US_GenderURY>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                29 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/URY> ;
-        <http://www.kdeproject.owl/malepercent>
-                48 .
-
-<http://www.kdeproject.owl/CR_US_GenderKIR>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                20 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/KIR> ;
-        <http://www.kdeproject.owl/malepercent>
-                13 .
-
 <http://www.kdeproject.owl/CR_US_DemographyVNM>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -706,6 +688,15 @@
         <http://www.kdeproject.owl/urbanResidence>
                 71 .
 
+<http://www.kdeproject.owl/CR_US_GenderURY>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                29 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/URY> ;
+        <http://www.kdeproject.owl/malepercent>
+                48 .
+
 <http://www.kdeproject.owl/CR_US_GenderBIH>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -714,6 +705,15 @@
                 <http://www.kdeproject.owl/BIH> ;
         <http://www.kdeproject.owl/malepercent>
                 92 .
+
+<http://www.kdeproject.owl/CR_US_GenderKIR>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                20 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/KIR> ;
+        <http://www.kdeproject.owl/malepercent>
+                13 .
 
 <http://www.kdeproject.owl/CR_US_DemographyBFA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -777,6 +777,15 @@
         <http://www.kdeproject.owl/secondquintile>
                 59 .
 
+<http://www.kdeproject.owl/CR_US_GenderETH>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                14 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/ETH> ;
+        <http://www.kdeproject.owl/malepercent>
+                11 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileTUN>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -791,15 +800,6 @@
                 80 ;
         <http://www.kdeproject.owl/secondquintile>
                 31 .
-
-<http://www.kdeproject.owl/CR_US_GenderETH>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                14 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/ETH> ;
-        <http://www.kdeproject.owl/malepercent>
-                11 .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileJOR>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -907,6 +907,13 @@
         <http://www.kdeproject.owl/secondquintile>
                 15 .
 
+<http://www.kdeproject.owl/LKA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Sri%20Lanka> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderCMR>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -915,13 +922,6 @@
                 <http://www.kdeproject.owl/CMR> ;
         <http://www.kdeproject.owl/malepercent>
                 26 .
-
-<http://www.kdeproject.owl/LKA>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Sri%20Lanka> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/MWI>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -945,6 +945,13 @@
         <http://www.kdeproject.owl/secondquintile>
                 2 .
 
+<http://www.kdeproject.owl/IDN>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Indonesia> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileCUB>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -960,13 +967,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 51 .
 
-<http://www.kdeproject.owl/IDN>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Indonesia> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
-
 <http://www.kdeproject.owl/Kenya>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
@@ -981,12 +981,14 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
-<http://www.kdeproject.owl/WCA>
-        a       <http://www.kdeproject.owl/SubRegion> ;
-        <http://www.kdeproject.owl/hasRegion>
-                <http://www.kdeproject.owl/SSA> ;
-        <http://www.kdeproject.owl/subRegionName>
-                "WCA" .
+<http://www.kdeproject.owl/CR_US_GenderNER>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                1 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/NER> ;
+        <http://www.kdeproject.owl/malepercent>
+                4 .
 
 <http://www.kdeproject.owl/CR_US_DemographyLKA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -1006,14 +1008,12 @@
         <http://www.kdeproject.owl/urbanResidence>
                 34 .
 
-<http://www.kdeproject.owl/CR_US_GenderNER>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                1 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/NER> ;
-        <http://www.kdeproject.owl/malepercent>
-                4 .
+<http://www.kdeproject.owl/WCA>
+        a       <http://www.kdeproject.owl/SubRegion> ;
+        <http://www.kdeproject.owl/hasRegion>
+                <http://www.kdeproject.owl/SSA> ;
+        <http://www.kdeproject.owl/subRegionName>
+                "WCA" .
 
 <http://www.kdeproject.owl/CR_US_DemographyIDN>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -1087,6 +1087,13 @@
         <http://www.kdeproject.owl/malepercent>
                 100 .
 
+<http://www.kdeproject.owl/COD>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Democratic%20Republic%20of%20the%20Congo> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileGAB>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -1101,13 +1108,6 @@
                 36 ;
         <http://www.kdeproject.owl/secondquintile>
                 4 .
-
-<http://www.kdeproject.owl/COD>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Democratic%20Republic%20of%20the%20Congo> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderGTM>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -1142,15 +1142,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 99 .
 
-<http://www.kdeproject.owl/CR_US_GenderMNE>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                90 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/MNE> ;
-        <http://www.kdeproject.owl/malepercent>
-                83 .
-
 <http://www.kdeproject.owl/CR_US_DemographyMDG>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -1160,12 +1151,37 @@
         <http://www.kdeproject.owl/urbanResidence>
                 30 .
 
+<http://www.kdeproject.owl/CR_US_GenderMNE>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                90 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/MNE> ;
+        <http://www.kdeproject.owl/malepercent>
+                83 .
+
 <http://www.kdeproject.owl/PAN>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
                 <http://www.kdeproject.owl/Panama> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
+
+<http://www.kdeproject.owl/Sierra%20Leone>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Sierra Leone" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/CR_US_GenderGNB>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                8 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/GNB> ;
+        <http://www.kdeproject.owl/malepercent>
+                14 .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileYEM>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -1182,15 +1198,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 15 .
 
-<http://www.kdeproject.owl/CR_US_GenderGNB>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                8 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/GNB> ;
-        <http://www.kdeproject.owl/malepercent>
-                14 .
-
 <http://www.kdeproject.owl/CR_US_DemographyCOD>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -1199,13 +1206,6 @@
                 12 ;
         <http://www.kdeproject.owl/urbanResidence>
                 47 .
-
-<http://www.kdeproject.owl/Sierra%20Leone>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Sierra Leone" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/WCA> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileLCA>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -1363,14 +1363,12 @@
         <http://www.kdeproject.owl/malepercent>
                 17 .
 
-<http://www.kdeproject.owl/EAP>
-        a       <http://www.kdeproject.owl/Region> , <http://www.kdeproject.owl/SubRegion> ;
-        <http://www.kdeproject.owl/hasRegion>
-                <http://www.kdeproject.owl/EAP> ;
-        <http://www.kdeproject.owl/regionName>
-                "EAP" ;
-        <http://www.kdeproject.owl/subRegionName>
-                "EAP" .
+<http://www.kdeproject.owl/BRB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Barbados> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderKGZ>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -1381,15 +1379,6 @@
         <http://www.kdeproject.owl/malepercent>
                 89 .
 
-<http://www.kdeproject.owl/CR_US_GenderPSE>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                74 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/PSE> ;
-        <http://www.kdeproject.owl/malepercent>
-                51 .
-
 <http://www.kdeproject.owl/CR_US_DemographyBDI>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -1399,6 +1388,24 @@
         <http://www.kdeproject.owl/urbanResidence>
                 14 .
 
+<http://www.kdeproject.owl/CR_US_GenderPSE>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                74 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/PSE> ;
+        <http://www.kdeproject.owl/malepercent>
+                51 .
+
+<http://www.kdeproject.owl/EAP>
+        a       <http://www.kdeproject.owl/SubRegion> , <http://www.kdeproject.owl/Region> ;
+        <http://www.kdeproject.owl/hasRegion>
+                <http://www.kdeproject.owl/EAP> ;
+        <http://www.kdeproject.owl/regionName>
+                "EAP" ;
+        <http://www.kdeproject.owl/subRegionName>
+                "EAP" .
+
 <http://www.kdeproject.owl/CR_US_GenderTUR>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -1407,13 +1414,6 @@
                 <http://www.kdeproject.owl/TUR> ;
         <http://www.kdeproject.owl/malepercent>
                 51 .
-
-<http://www.kdeproject.owl/BRB>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Barbados> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyTUV>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -1440,6 +1440,15 @@
         <http://www.kdeproject.owl/urbanResidence>
                 92 .
 
+<http://www.kdeproject.owl/CR_US_GenderKAZ>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                96 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/KAZ> ;
+        <http://www.kdeproject.owl/malepercent>
+                95 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileSTP>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -1454,15 +1463,6 @@
                 55 ;
         <http://www.kdeproject.owl/secondquintile>
                 27 .
-
-<http://www.kdeproject.owl/CR_US_GenderKAZ>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                96 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/KAZ> ;
-        <http://www.kdeproject.owl/malepercent>
-                95 .
 
 <http://www.kdeproject.owl/Honduras>
         a       <http://www.kdeproject.owl/Country> ;
@@ -1480,6 +1480,13 @@
         <http://www.kdeproject.owl/malepercent>
                 35 .
 
+<http://www.kdeproject.owl/Madagascar>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Madagascar" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/ESA> .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileZWE>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -1494,13 +1501,6 @@
                 37 ;
         <http://www.kdeproject.owl/secondquintile>
                 3 .
-
-<http://www.kdeproject.owl/Madagascar>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Madagascar" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/ESA> .
 
 <http://www.kdeproject.owl/CAF>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -1623,6 +1623,13 @@
         <http://www.kdeproject.owl/urbanResidence>
                 19 .
 
+<http://www.kdeproject.owl/BGD>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Bangladesh> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderJAM>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -1631,13 +1638,6 @@
                 <http://www.kdeproject.owl/JAM> ;
         <http://www.kdeproject.owl/malepercent>
                 80 .
-
-<http://www.kdeproject.owl/BGD>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Bangladesh> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyGHA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -1831,7 +1831,7 @@
                 <http://www.kdeproject.owl/LAC> .
 
 <http://www.kdeproject.owl/SA>
-        a       <http://www.kdeproject.owl/Region> , <http://www.kdeproject.owl/SubRegion> ;
+        a       <http://www.kdeproject.owl/SubRegion> , <http://www.kdeproject.owl/Region> ;
         <http://www.kdeproject.owl/hasRegion>
                 <http://www.kdeproject.owl/SA> ;
         <http://www.kdeproject.owl/regionName>
@@ -1884,6 +1884,20 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EECA> .
 
+<http://www.kdeproject.owl/URY>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Uruguay> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
+<http://www.kdeproject.owl/KIR>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Kiribati> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileIRQ>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -1899,26 +1913,12 @@
         <http://www.kdeproject.owl/secondquintile>
                 33 .
 
-<http://www.kdeproject.owl/URY>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Uruguay> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
-
 <http://www.kdeproject.owl/BIH>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
                 <http://www.kdeproject.owl/Bosnia%20and%20Herzegovina> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "More Developed" .
-
-<http://www.kdeproject.owl/KIR>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Kiribati> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
 
 <http://www.kdeproject.owl/Liberia>
         a       <http://www.kdeproject.owl/Country> ;
@@ -1983,6 +1983,13 @@
         <http://www.kdeproject.owl/urbanResidence>
                 24 .
 
+<http://www.kdeproject.owl/Brazil>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Brazil" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/LAC> .
+
 <http://www.kdeproject.owl/CR_US_GenderNPL>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -1991,13 +1998,6 @@
                 <http://www.kdeproject.owl/NPL> ;
         <http://www.kdeproject.owl/malepercent>
                 27 .
-
-<http://www.kdeproject.owl/Brazil>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Brazil" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/LAC> .
 
 <http://www.kdeproject.owl/CR_US_GenderBLZ>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2023,6 +2023,13 @@
         <http://www.kdeproject.owl/secondquintile>
                 17 .
 
+<http://www.kdeproject.owl/ETH>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Ethiopia> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderPAK>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -2031,13 +2038,6 @@
                 <http://www.kdeproject.owl/PAK> ;
         <http://www.kdeproject.owl/malepercent>
                 24 .
-
-<http://www.kdeproject.owl/ETH>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Ethiopia> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderCOL>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2056,6 +2056,13 @@
                 <http://www.kdeproject.owl/NGA> ;
         <http://www.kdeproject.owl/malepercent>
                 57 .
+
+<http://www.kdeproject.owl/HND>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Honduras> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileSSD>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -2080,13 +2087,6 @@
                 5 ;
         <http://www.kdeproject.owl/urbanResidence>
                 39 .
-
-<http://www.kdeproject.owl/HND>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Honduras> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderTGO>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2169,15 +2169,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 64 .
 
-<http://www.kdeproject.owl/CR_US_GenderSLV>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                36 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SLV> ;
-        <http://www.kdeproject.owl/malepercent>
-                34 .
-
 <http://www.kdeproject.owl/CR_US_GenderALB>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -2186,6 +2177,15 @@
                 <http://www.kdeproject.owl/ALB> ;
         <http://www.kdeproject.owl/malepercent>
                 76 .
+
+<http://www.kdeproject.owl/CR_US_GenderSLV>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                36 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SLV> ;
+        <http://www.kdeproject.owl/malepercent>
+                34 .
 
 <http://www.kdeproject.owl/Cambodia>
         a       <http://www.kdeproject.owl/Country> ;
@@ -2210,6 +2210,13 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
+<http://www.kdeproject.owl/UKR>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Ukraine> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileLAO>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -2225,13 +2232,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 16 .
 
-<http://www.kdeproject.owl/UKR>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Ukraine> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "More Developed" .
-
 <http://www.kdeproject.owl/CR_US_DemographyNER>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -2241,20 +2241,12 @@
         <http://www.kdeproject.owl/urbanResidence>
                 9 .
 
-<http://www.kdeproject.owl/CR_US_WealthQuintileVNM>
-        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/VNM> ;
-        <http://www.kdeproject.owl/fourthquintile>
-                70 ;
-        <http://www.kdeproject.owl/middlequintile>
-                56 ;
-        <http://www.kdeproject.owl/poorestquintile>
-                19 ;
-        <http://www.kdeproject.owl/richerstquintile>
-                90 ;
-        <http://www.kdeproject.owl/secondquintile>
-                44 .
+<http://www.kdeproject.owl/TCA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Not Classified" .
 
 <http://www.kdeproject.owl/ESA>
         a       <http://www.kdeproject.owl/SubRegion> ;
@@ -2278,22 +2270,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 52 .
 
-<http://www.kdeproject.owl/CR_US_GenderTLS>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                55 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/TLS> ;
-        <http://www.kdeproject.owl/malepercent>
-                49 .
-
-<http://www.kdeproject.owl/TCA>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Not Classified" .
-
 <http://www.kdeproject.owl/Algeria>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
@@ -2310,6 +2286,37 @@
         <http://www.kdeproject.owl/urbanResidence>
                 98 .
 
+<http://www.kdeproject.owl/CR_US_WealthQuintileVNM>
+        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/VNM> ;
+        <http://www.kdeproject.owl/fourthquintile>
+                70 ;
+        <http://www.kdeproject.owl/middlequintile>
+                56 ;
+        <http://www.kdeproject.owl/poorestquintile>
+                19 ;
+        <http://www.kdeproject.owl/richerstquintile>
+                90 ;
+        <http://www.kdeproject.owl/secondquintile>
+                44 .
+
+<http://www.kdeproject.owl/CR_US_GenderTLS>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                55 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/TLS> ;
+        <http://www.kdeproject.owl/malepercent>
+                49 .
+
+<http://www.kdeproject.owl/GTM>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Guatemala> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileBFA>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -2324,13 +2331,6 @@
                 12 ;
         <http://www.kdeproject.owl/secondquintile>
                 0 .
-
-<http://www.kdeproject.owl/GTM>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Guatemala> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileCRI>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -2365,6 +2365,13 @@
         <http://www.kdeproject.owl/malepercent>
                 31 .
 
+<http://www.kdeproject.owl/MNE>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Montenegro> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderZMB>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -2374,12 +2381,12 @@
         <http://www.kdeproject.owl/malepercent>
                 33 .
 
-<http://www.kdeproject.owl/MNE>
+<http://www.kdeproject.owl/GNB>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Montenegro> ;
+                <http://www.kdeproject.owl/Guinea-Bissau> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "More Developed" .
+                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyTCA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -2389,13 +2396,6 @@
                 100 ;
         <http://www.kdeproject.owl/urbanResidence>
                 98 .
-
-<http://www.kdeproject.owl/GNB>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Guinea-Bissau> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
 
 <http://www.kdeproject.owl/EECA>
         a       <http://www.kdeproject.owl/SubRegion> ;
@@ -2459,6 +2459,13 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EECA> .
 
+<http://www.kdeproject.owl/PHL>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Philippines> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderCOG>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -2467,13 +2474,6 @@
                 <http://www.kdeproject.owl/COG> ;
         <http://www.kdeproject.owl/malepercent>
                 28 .
-
-<http://www.kdeproject.owl/PHL>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Philippines> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderAGO>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2491,6 +2491,13 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
 
+<http://www.kdeproject.owl/PRY>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Paraguay> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_DemographyPHL>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -2499,13 +2506,6 @@
                 73 ;
         <http://www.kdeproject.owl/urbanResidence>
                 83 .
-
-<http://www.kdeproject.owl/PRY>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Paraguay> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/El%20Salvador>
         a       <http://www.kdeproject.owl/Country> ;
@@ -2549,6 +2549,20 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
 
+<http://www.kdeproject.owl/TUR>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Turkey> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
+<http://www.kdeproject.owl/PSE>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/State%20of%20Palestine> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderBTN>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -2557,13 +2571,6 @@
                 <http://www.kdeproject.owl/BTN> ;
         <http://www.kdeproject.owl/malepercent>
                 25 .
-
-<http://www.kdeproject.owl/PSE>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/State%20of%20Palestine> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyPRY>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -2574,24 +2581,17 @@
         <http://www.kdeproject.owl/urbanResidence>
                 72 .
 
-<http://www.kdeproject.owl/TUR>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Turkey> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
+<http://www.kdeproject.owl/Guinea-Bissau>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Guinea-Bissau" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/WCA> .
 
 <http://www.kdeproject.owl/Guinea>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
                 "Guinea" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/WCA> .
-
-<http://www.kdeproject.owl/Guinea-Bissau>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Guinea-Bissau" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/WCA> .
 
@@ -2613,15 +2613,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 25 .
 
-<http://www.kdeproject.owl/CR_US_GenderTUN>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                57 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/TUN> ;
-        <http://www.kdeproject.owl/malepercent>
-                40 .
-
 <http://www.kdeproject.owl/CR_US_DemographyKGZ>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -2639,6 +2630,15 @@
                 <http://www.kdeproject.owl/JOR> ;
         <http://www.kdeproject.owl/malepercent>
                 49 .
+
+<http://www.kdeproject.owl/CR_US_GenderTUN>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                57 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/TUN> ;
+        <http://www.kdeproject.owl/malepercent>
+                40 .
 
 <http://www.kdeproject.owl/CR_US_DemographyPSE>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -2717,6 +2717,13 @@
         <http://www.kdeproject.owl/secondquintile>
                 46 .
 
+<http://www.kdeproject.owl/Iraq>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Iraq" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/MENA> .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileMMR>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -2749,13 +2756,6 @@
                 93 ;
         <http://www.kdeproject.owl/urbanResidence>
                 97 .
-
-<http://www.kdeproject.owl/Iraq>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Iraq" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/MENA> .
 
 <http://www.kdeproject.owl/CR_US_GenderTON>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2861,6 +2861,22 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EAP> .
 
+<http://www.kdeproject.owl/Sudan>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Sudan" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/ESA> .
+
+<http://www.kdeproject.owl/MENA>
+        a       <http://www.kdeproject.owl/SubRegion> , <http://www.kdeproject.owl/Region> ;
+        <http://www.kdeproject.owl/hasRegion>
+                <http://www.kdeproject.owl/MENA> ;
+        <http://www.kdeproject.owl/regionName>
+                "MENA" ;
+        <http://www.kdeproject.owl/subRegionName>
+                "MENA" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintilePAN>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -2876,28 +2892,19 @@
         <http://www.kdeproject.owl/secondquintile>
                 45 .
 
-<http://www.kdeproject.owl/MENA>
-        a       <http://www.kdeproject.owl/Region> , <http://www.kdeproject.owl/SubRegion> ;
-        <http://www.kdeproject.owl/hasRegion>
-                <http://www.kdeproject.owl/MENA> ;
-        <http://www.kdeproject.owl/regionName>
-                "MENA" ;
-        <http://www.kdeproject.owl/subRegionName>
-                "MENA" .
-
-<http://www.kdeproject.owl/Sudan>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Sudan" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/ESA> .
-
 <http://www.kdeproject.owl/Gabon>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
                 "Gabon" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Myanmar>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Myanmar" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/EAP> .
 
 <http://www.kdeproject.owl/CR_US_GenderMNG>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -2907,13 +2914,6 @@
                 <http://www.kdeproject.owl/MNG> ;
         <http://www.kdeproject.owl/malepercent>
                 60 .
-
-<http://www.kdeproject.owl/Myanmar>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Myanmar" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/EAP> .
 
 <http://www.kdeproject.owl/JAM>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -3033,6 +3033,24 @@
         <http://www.kdeproject.owl/urbanResidence>
                 16 .
 
+<http://www.kdeproject.owl/CR_US_GenderLCA>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                90 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/LCA> ;
+        <http://www.kdeproject.owl/malepercent>
+                70 .
+
+<http://www.kdeproject.owl/CR_US_DemographySLE>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SLE> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                5 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                33 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileTUV>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -3047,24 +3065,6 @@
                 68 ;
         <http://www.kdeproject.owl/secondquintile>
                 47 .
-
-<http://www.kdeproject.owl/CR_US_DemographySLE>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SLE> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                5 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                33 .
-
-<http://www.kdeproject.owl/CR_US_GenderLCA>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                90 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/LCA> ;
-        <http://www.kdeproject.owl/malepercent>
-                70 .
 
 <http://www.kdeproject.owl/CR_US_GenderMRT>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -3276,6 +3276,13 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
 
+<http://www.kdeproject.owl/PAK>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Pakistan> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_DemographyNPL>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -3285,10 +3292,10 @@
         <http://www.kdeproject.owl/urbanResidence>
                 33 .
 
-<http://www.kdeproject.owl/PAK>
+<http://www.kdeproject.owl/NGA>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Pakistan> ;
+                <http://www.kdeproject.owl/Nigeria> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
 
@@ -3306,21 +3313,6 @@
                 31 ;
         <http://www.kdeproject.owl/secondquintile>
                 4 .
-
-<http://www.kdeproject.owl/CR_US_WealthQuintileHTI>
-        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/HTI> ;
-        <http://www.kdeproject.owl/fourthquintile>
-                17 ;
-        <http://www.kdeproject.owl/middlequintile>
-                8 ;
-        <http://www.kdeproject.owl/poorestquintile>
-                1 ;
-        <http://www.kdeproject.owl/richerstquintile>
-                40 ;
-        <http://www.kdeproject.owl/secondquintile>
-                6 .
 
 <http://www.kdeproject.owl/COL>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -3353,6 +3345,21 @@
         <http://www.kdeproject.owl/secondquintile>
                 2 .
 
+<http://www.kdeproject.owl/CR_US_WealthQuintileHTI>
+        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/HTI> ;
+        <http://www.kdeproject.owl/fourthquintile>
+                17 ;
+        <http://www.kdeproject.owl/middlequintile>
+                8 ;
+        <http://www.kdeproject.owl/poorestquintile>
+                1 ;
+        <http://www.kdeproject.owl/richerstquintile>
+                40 ;
+        <http://www.kdeproject.owl/secondquintile>
+                6 .
+
 <http://www.kdeproject.owl/CR_US_DemographyBLZ>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -3362,21 +3369,12 @@
         <http://www.kdeproject.owl/urbanResidence>
                 60 .
 
-<http://www.kdeproject.owl/NGA>
+<http://www.kdeproject.owl/TGO>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Nigeria> ;
+                <http://www.kdeproject.owl/Togo> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
-
-<http://www.kdeproject.owl/CR_US_GenderTJK>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                63 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/TJK> ;
-        <http://www.kdeproject.owl/malepercent>
-                80 .
+                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyPAK>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -3387,12 +3385,14 @@
         <http://www.kdeproject.owl/urbanResidence>
                 35 .
 
-<http://www.kdeproject.owl/TGO>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Togo> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
+<http://www.kdeproject.owl/CR_US_GenderTJK>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                63 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/TJK> ;
+        <http://www.kdeproject.owl/malepercent>
+                80 .
 
 <http://www.kdeproject.owl/Tajikistan>
         a       <http://www.kdeproject.owl/Country> ;
@@ -3425,6 +3425,15 @@
         <http://www.kdeproject.owl/secondquintile>
                 20 .
 
+<http://www.kdeproject.owl/CR_US_GenderSUR>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                26 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SUR> ;
+        <http://www.kdeproject.owl/malepercent>
+                18 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileGUY>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -3439,15 +3448,6 @@
                 85 ;
         <http://www.kdeproject.owl/secondquintile>
                 39 .
-
-<http://www.kdeproject.owl/CR_US_GenderSUR>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                26 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SUR> ;
-        <http://www.kdeproject.owl/malepercent>
-                18 .
 
 <http://www.kdeproject.owl/CR_US_DemographyNGA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -3502,19 +3502,19 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EECA> .
 
-<http://www.kdeproject.owl/ALB>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Albania> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "More Developed" .
-
 <http://www.kdeproject.owl/SLV>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
                 <http://www.kdeproject.owl/El%20Salvador> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
+
+<http://www.kdeproject.owl/ALB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Albania> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "More Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyARM>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -3532,6 +3532,13 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/MENA> .
 
+<http://www.kdeproject.owl/CÃ´te%20d%27Ivoire>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "CÃ´te d'Ivoire" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/WCA> .
+
 <http://www.kdeproject.owl/CR_US_DemographyUGA>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -3540,13 +3547,6 @@
                 11 ;
         <http://www.kdeproject.owl/urbanResidence>
                 30 .
-
-<http://www.kdeproject.owl/CÃ´te%20d%27Ivoire>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "CÃ´te d'Ivoire" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/WCA> .
 
 <http://www.kdeproject.owl/CR_US_GenderTKM>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -3590,6 +3590,13 @@
         <http://www.kdeproject.owl/urbanResidence>
                 45 .
 
+<http://www.kdeproject.owl/India>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "India" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/SA> .
+
 <http://www.kdeproject.owl/CR_US_GenderMOZ>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -3598,13 +3605,6 @@
                 <http://www.kdeproject.owl/MOZ> ;
         <http://www.kdeproject.owl/malepercent>
                 8 .
-
-<http://www.kdeproject.owl/India>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "India" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/SA> .
 
 <http://www.kdeproject.owl/Senegal>
         a       <http://www.kdeproject.owl/Country> ;
@@ -3627,15 +3627,6 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
-<http://www.kdeproject.owl/CR_US_GenderIND>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                40 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/IND> ;
-        <http://www.kdeproject.owl/malepercent>
-                46 .
-
 <http://www.kdeproject.owl/TZA>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
@@ -3649,6 +3640,15 @@
                 <http://www.kdeproject.owl/Eswatini> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Less Developed" .
+
+<http://www.kdeproject.owl/CR_US_GenderIND>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                40 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/IND> ;
+        <http://www.kdeproject.owl/malepercent>
+                46 .
 
 <http://www.kdeproject.owl/Comoros>
         a       <http://www.kdeproject.owl/Country> ;
@@ -3687,6 +3687,15 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EECA> .
 
+<http://www.kdeproject.owl/CR_US_DemographyTLS>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/TLS> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                36 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                76 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileURY>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -3701,21 +3710,6 @@
                 91 ;
         <http://www.kdeproject.owl/secondquintile>
                 13 .
-
-<http://www.kdeproject.owl/CR_US_WealthQuintileKIR>
-        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/KIR> ;
-        <http://www.kdeproject.owl/fourthquintile>
-                18 ;
-        <http://www.kdeproject.owl/middlequintile>
-                10 ;
-        <http://www.kdeproject.owl/poorestquintile>
-                4 ;
-        <http://www.kdeproject.owl/richerstquintile>
-                38 ;
-        <http://www.kdeproject.owl/secondquintile>
-                5 .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileBIH>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -3732,14 +3726,20 @@
         <http://www.kdeproject.owl/secondquintile>
                 90 .
 
-<http://www.kdeproject.owl/CR_US_DemographyTLS>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+<http://www.kdeproject.owl/CR_US_WealthQuintileKIR>
+        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/TLS> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                36 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                76 .
+                <http://www.kdeproject.owl/KIR> ;
+        <http://www.kdeproject.owl/fourthquintile>
+                18 ;
+        <http://www.kdeproject.owl/middlequintile>
+                10 ;
+        <http://www.kdeproject.owl/poorestquintile>
+                4 ;
+        <http://www.kdeproject.owl/richerstquintile>
+                38 ;
+        <http://www.kdeproject.owl/secondquintile>
+                5 .
 
 <http://www.kdeproject.owl/CR_US_GenderWSM>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -3807,6 +3807,13 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/ESA> .
 
+<http://www.kdeproject.owl/United%20Republic%20of%20Tanzania>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "United Republic of Tanzania" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/ESA> .
+
 <http://www.kdeproject.owl/CR_US_GenderIRQ>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -3815,13 +3822,6 @@
                 <http://www.kdeproject.owl/IRQ> ;
         <http://www.kdeproject.owl/malepercent>
                 45 .
-
-<http://www.kdeproject.owl/United%20Republic%20of%20Tanzania>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "United Republic of Tanzania" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/ESA> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileETH>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -3847,15 +3847,6 @@
         <http://www.kdeproject.owl/urbanResidence>
                 29 .
 
-<http://www.kdeproject.owl/CR_US_GenderSRB>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                92 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SRB> ;
-        <http://www.kdeproject.owl/malepercent>
-                96 .
-
 <http://www.kdeproject.owl/CR_US_DemographyAGO>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
         <http://www.kdeproject.owl/forISO>
@@ -3864,6 +3855,15 @@
                 4 ;
         <http://www.kdeproject.owl/urbanResidence>
                 25 .
+
+<http://www.kdeproject.owl/CR_US_GenderSRB>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                92 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SRB> ;
+        <http://www.kdeproject.owl/malepercent>
+                96 .
 
 <http://www.kdeproject.owl/Bosnia%20and%20Herzegovina>
         a       <http://www.kdeproject.owl/Country> ;
@@ -3901,6 +3901,22 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
+<http://www.kdeproject.owl/THA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Thailand> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
+<http://www.kdeproject.owl/CR_US_GenderLSO>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                37 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/LSO> ;
+        <http://www.kdeproject.owl/malepercent>
+                27 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileDOM>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -3915,22 +3931,6 @@
                 90 ;
         <http://www.kdeproject.owl/secondquintile>
                 52 .
-
-<http://www.kdeproject.owl/CR_US_GenderLSO>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                37 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/LSO> ;
-        <http://www.kdeproject.owl/malepercent>
-                27 .
-
-<http://www.kdeproject.owl/THA>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Thailand> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/TUN>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -3969,6 +3969,15 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/LAC> .
 
+<http://www.kdeproject.owl/CR_US_DemographyTHA>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/THA> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                58 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                71 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileCMR>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -3983,15 +3992,6 @@
                 52 ;
         <http://www.kdeproject.owl/secondquintile>
                 4 .
-
-<http://www.kdeproject.owl/CR_US_DemographyTHA>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/THA> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                58 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                71 .
 
 <http://www.kdeproject.owl/CR_US_GenderSSD>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -4049,6 +4049,29 @@
         <http://www.kdeproject.owl/secondquintile>
                 0 .
 
+<http://www.kdeproject.owl/GMB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Gambia> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Least Developed" .
+
+<http://www.kdeproject.owl/Peru>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Peru" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/LAC> .
+
+<http://www.kdeproject.owl/CR_US_DemographyKHM>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/KHM> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                13 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                48 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileUKR>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -4064,20 +4087,6 @@
         <http://www.kdeproject.owl/secondquintile>
                 97 .
 
-<http://www.kdeproject.owl/Peru>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Peru" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/LAC> .
-
-<http://www.kdeproject.owl/GMB>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Gambia> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
-
 <http://www.kdeproject.owl/CR_US_GenderBRA>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -4086,15 +4095,6 @@
                 <http://www.kdeproject.owl/BRA> ;
         <http://www.kdeproject.owl/malepercent>
                 65 .
-
-<http://www.kdeproject.owl/CR_US_DemographyKHM>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/KHM> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                13 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                48 .
 
 <http://www.kdeproject.owl/Costa%20Rica>
         a       <http://www.kdeproject.owl/Country> ;
@@ -4119,6 +4119,13 @@
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
                 "Least Developed" .
 
+<http://www.kdeproject.owl/CUB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Cuba> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileTCA>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -4133,13 +4140,6 @@
                 99 ;
         <http://www.kdeproject.owl/secondquintile>
                 100 .
-
-<http://www.kdeproject.owl/CUB>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Cuba> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_DemographyGMB>
         a       <http://www.kdeproject.owl/CR_US_Demography> ;
@@ -4196,6 +4196,15 @@
         <http://www.kdeproject.owl/urbanResidence>
                 15 .
 
+<http://www.kdeproject.owl/CR_US_DemographyCUB>
+        a       <http://www.kdeproject.owl/CR_US_Demography> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/CUB> ;
+        <http://www.kdeproject.owl/ruralResidence>
+                49 ;
+        <http://www.kdeproject.owl/urbanResidence>
+                64 .
+
 <http://www.kdeproject.owl/CR_US_WealthQuintileGNB>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
         <http://www.kdeproject.owl/forISO>
@@ -4210,15 +4219,6 @@
                 23 ;
         <http://www.kdeproject.owl/secondquintile>
                 2 .
-
-<http://www.kdeproject.owl/CR_US_DemographyCUB>
-        a       <http://www.kdeproject.owl/CR_US_Demography> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/CUB> ;
-        <http://www.kdeproject.owl/ruralResidence>
-                49 ;
-        <http://www.kdeproject.owl/urbanResidence>
-                64 .
 
 <http://www.kdeproject.owl/CR_US_GenderLAO>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -4250,6 +4250,20 @@
         <http://www.kdeproject.owl/malepercent>
                 63 .
 
+<http://www.kdeproject.owl/GAB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Gabon> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
+<http://www.kdeproject.owl/Sao%20Tome%20and%20Principe>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Sao Tome and Principe" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/WCA> .
+
 <http://www.kdeproject.owl/CR_US_GenderVNM>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -4259,28 +4273,12 @@
         <http://www.kdeproject.owl/malepercent>
                 50 .
 
-<http://www.kdeproject.owl/Sao%20Tome%20and%20Principe>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Sao Tome and Principe" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/WCA> .
-
-<http://www.kdeproject.owl/CR_US_GenderCRI>
-        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
-        <http://www.kdeproject.owl/femalepercent>
-                60 ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/CRI> ;
-        <http://www.kdeproject.owl/malepercent>
-                56 .
-
-<http://www.kdeproject.owl/GAB>
+<http://www.kdeproject.owl/COM>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Gabon> ;
+                <http://www.kdeproject.owl/Comoros> ;
         <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
+                "Least Developed" .
 
 <http://www.kdeproject.owl/CR_US_GenderBFA>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -4300,12 +4298,21 @@
         <http://www.kdeproject.owl/urbanResidence>
                 78 .
 
-<http://www.kdeproject.owl/COM>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Comoros> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Least Developed" .
+<http://www.kdeproject.owl/CR_US_GenderCRI>
+        a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
+        <http://www.kdeproject.owl/femalepercent>
+                60 ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/CRI> ;
+        <http://www.kdeproject.owl/malepercent>
+                56 .
+
+<http://www.kdeproject.owl/Cuba>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Cuba" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/LAC> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintilePHL>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -4322,17 +4329,17 @@
         <http://www.kdeproject.owl/secondquintile>
                 71 .
 
-<http://www.kdeproject.owl/Cuba>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Cuba" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/LAC> .
-
 <http://www.kdeproject.owl/Saint%20Lucia>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
                 "Saint Lucia" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/LAC> .
+
+<http://www.kdeproject.owl/Haiti>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Haiti" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/LAC> .
 
@@ -4350,13 +4357,6 @@
                 78 ;
         <http://www.kdeproject.owl/secondquintile>
                 36 .
-
-<http://www.kdeproject.owl/Haiti>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Haiti" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/LAC> .
 
 <http://www.kdeproject.owl/YEM>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -4621,21 +4621,21 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/WCA> .
 
-<http://www.kdeproject.owl/LAC>
-        a       <http://www.kdeproject.owl/Region> , <http://www.kdeproject.owl/SubRegion> ;
-        <http://www.kdeproject.owl/hasRegion>
-                <http://www.kdeproject.owl/LAC> ;
-        <http://www.kdeproject.owl/regionName>
-                "LAC" ;
-        <http://www.kdeproject.owl/subRegionName>
-                "LAC" .
-
 <http://www.kdeproject.owl/Jordan>
         a       <http://www.kdeproject.owl/Country> ;
         <http://www.kdeproject.owl/countryName>
                 "Jordan" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/MENA> .
+
+<http://www.kdeproject.owl/LAC>
+        a       <http://www.kdeproject.owl/SubRegion> , <http://www.kdeproject.owl/Region> ;
+        <http://www.kdeproject.owl/hasRegion>
+                <http://www.kdeproject.owl/LAC> ;
+        <http://www.kdeproject.owl/regionName>
+                "LAC" ;
+        <http://www.kdeproject.owl/subRegionName>
+                "LAC" .
 
 <http://www.kdeproject.owl/STP>
         a       <http://www.kdeproject.owl/ISO> ;
@@ -4719,6 +4719,13 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/WCA> .
 
+<http://www.kdeproject.owl/TJK>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Tajikistan> ;
+        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
+                "Less Developed" .
+
 <http://www.kdeproject.owl/CR_US_GenderBLR>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -4727,13 +4734,6 @@
                 <http://www.kdeproject.owl/BLR> ;
         <http://www.kdeproject.owl/malepercent>
                 98 .
-
-<http://www.kdeproject.owl/TJK>
-        a       <http://www.kdeproject.owl/ISO> ;
-        <http://www.kdeproject.owl/representsCountry>
-                <http://www.kdeproject.owl/Tajikistan> ;
-        <http://xmlns.com/foaf/0.1/DevelopmentRegions>
-                "Less Developed" .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileJAM>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -4768,13 +4768,6 @@
         <http://www.kdeproject.owl/malepercent>
                 16 .
 
-<http://www.kdeproject.owl/Armenia>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Armenia" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/EECA> .
-
 <http://www.kdeproject.owl/SUR>
         a       <http://www.kdeproject.owl/ISO> ;
         <http://www.kdeproject.owl/representsCountry>
@@ -4788,6 +4781,13 @@
                 "Kiribati" ;
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Armenia>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Armenia" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/EECA> .
 
 <http://www.kdeproject.owl/CR_US_GenderCOD>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
@@ -4822,20 +4822,12 @@
         <http://www.kdeproject.owl/urbanResidence>
                 74 .
 
-<http://www.kdeproject.owl/CR_US_WealthQuintileSLE>
-        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
-        <http://www.kdeproject.owl/forISO>
-                <http://www.kdeproject.owl/SLE> ;
-        <http://www.kdeproject.owl/fourthquintile>
-                24 ;
-        <http://www.kdeproject.owl/middlequintile>
-                12 ;
-        <http://www.kdeproject.owl/poorestquintile>
-                2 ;
-        <http://www.kdeproject.owl/richerstquintile>
-                41 ;
-        <http://www.kdeproject.owl/secondquintile>
-                3 .
+<http://www.kdeproject.owl/Tunisia>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Tunisia" ;
+        <http://www.kdeproject.owl/hasSubRegion>
+                <http://www.kdeproject.owl/MENA> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintileSEN>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
@@ -4859,6 +4851,21 @@
         <http://www.kdeproject.owl/hasSubRegion>
                 <http://www.kdeproject.owl/ESA> .
 
+<http://www.kdeproject.owl/CR_US_WealthQuintileSLE>
+        a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
+        <http://www.kdeproject.owl/forISO>
+                <http://www.kdeproject.owl/SLE> ;
+        <http://www.kdeproject.owl/fourthquintile>
+                24 ;
+        <http://www.kdeproject.owl/middlequintile>
+                12 ;
+        <http://www.kdeproject.owl/poorestquintile>
+                2 ;
+        <http://www.kdeproject.owl/richerstquintile>
+                41 ;
+        <http://www.kdeproject.owl/secondquintile>
+                3 .
+
 <http://www.kdeproject.owl/CR_US_GenderPAN>
         a       <http://www.kdeproject.owl/CR_US_GenderRates> ;
         <http://www.kdeproject.owl/femalepercent>
@@ -4876,13 +4883,6 @@
                 12 ;
         <http://www.kdeproject.owl/urbanResidence>
                 26 .
-
-<http://www.kdeproject.owl/Tunisia>
-        a       <http://www.kdeproject.owl/Country> ;
-        <http://www.kdeproject.owl/countryName>
-                "Tunisia" ;
-        <http://www.kdeproject.owl/hasSubRegion>
-                <http://www.kdeproject.owl/MENA> .
 
 <http://www.kdeproject.owl/CR_US_WealthQuintilePER>
         a       <http://www.kdeproject.owl/CR_US_WealthQuintile> ;
